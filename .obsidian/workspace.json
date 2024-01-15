@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First note.md",
+                "file": "Operations Research.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First note.md",
+                "file": "Operations Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First note.md",
+                "file": "Operations Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First note.md"
+                "file": "Operations Research.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e37ebc0a9e3fe9b",
+  "active": "175bbe7ed4f68a6b",
   "lastOpenFiles": [
+    "Media/Pasted image 20240115221311.png",
+    "Operations Research.md",
+    "Media/Pasted image 20240115220031.png",
+    "Media/Pasted image 20240115215735.png",
     "First note.md",
     "Media"
   ]
