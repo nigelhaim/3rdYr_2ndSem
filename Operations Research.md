@@ -1,6 +1,10 @@
 
-
+# Operations Research
 ## Pre concepts 
+
+### Objective 
+- Allocate the scarce resources in an effective manner to the various military operations and to the activities within each operation.
+
 
 #### Business manager 
 - Perfoms many tasks 
@@ -18,7 +22,7 @@
 
 **Domain** == set 
 **Range** - An element of the Domain
-**Ordered tuple** - Two having the same first element also have teh same second element 
+**Ordered tuple** - Two having the same first element also have the same second element 
 
 
 ### Inequalities

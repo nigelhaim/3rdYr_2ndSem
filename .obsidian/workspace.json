@@ -11,11 +11,31 @@
             "id": "7e37ebc0a9e3fe9b",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20240117154339.png"
+              }
+            }
+          },
+          {
+            "id": "a306d09d79ed3a15",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Operations Research.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "84ebe8341546cc0a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20240117145322.png"
               }
             }
           }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Media/Pasted image 20240117154339.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Media/Pasted image 20240117154339.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operations Research.md"
+                "file": "Media/Pasted image 20240117154339.png"
               }
             }
           }
@@ -148,10 +168,19 @@
   },
   "active": "175bbe7ed4f68a6b",
   "lastOpenFiles": [
-    "Media/Pasted image 20240115221311.png",
+    "Data Communications and Networking.md",
+    "Media/Pasted image 20240117155730.png",
+    "Media/Pasted image 20240117154445.png",
+    "Media/Pasted image 20240117154430.png",
+    "Media/Pasted image 20240117154339.png",
     "Operations Research.md",
-    "Media/Pasted image 20240115220031.png",
-    "Media/Pasted image 20240115215735.png",
+    "Media/Pasted image 20240117145322.png",
+    "Media/Pasted image 20240117153117.png",
+    "Media/Pasted image 20240117153341.png",
+    "Media/Pasted image 20240117153637.png",
+    "Media/Pasted image 20240117152817.png",
+    "Media/Pasted image 20240117152130.png",
+    "Untitled.md",
     "First note.md",
     "Media"
   ]

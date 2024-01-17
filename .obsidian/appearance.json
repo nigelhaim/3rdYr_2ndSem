@@ -1,4 +1,5 @@
 {
   "accentColor": "#ff8800",
-  "cssTheme": "Tokyo Night"
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 23
 }
