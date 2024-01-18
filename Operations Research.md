@@ -120,3 +120,9 @@ If
 	p = 1 
 then 
 	q  = 1 - p
+
+
+
+
+![[Pasted image 20240117184620.png]]
+![[Pasted image 20240117203008.png]]
