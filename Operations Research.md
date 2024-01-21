@@ -1,4 +1,3 @@
-
 # Operations Research
 ## Pre concepts 
 
@@ -127,3 +126,12 @@ then
 ![[Pasted image 20240117184620.png]]
 ==========================
 ![[Pasted image 20240117203008.png]]
+
+
+
+
+
+![[Pasted image 20240121152506.png]]
+![[Pasted image 20240121152625.png]]
+
+![[Pasted image 20240121152525.png]]
