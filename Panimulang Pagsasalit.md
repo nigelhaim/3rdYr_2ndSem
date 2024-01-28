@@ -26,6 +26,9 @@ Ang pagsasalin ay isang pagsasanay na binubuo ng pagtatangkang palitan ang isang
 | ---- | ---- | ---- |
 | - Kahulugan<br>- Estruktura<br>- Estilo <br>- Pinaglalaanang tao | - SL (source language o simulaang lengguahe)<br>- TL (target language o tunguhang lengguwahe) | SL -> TL |
 
+Intralingual Translation - Pagsasalin sa sariling wika ngunit mula sa ibang contexto 
+- Awit pare 
 
+September 30 - Day of Translation 
 
-
+x

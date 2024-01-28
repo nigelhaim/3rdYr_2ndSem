@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Operations Research.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Operations Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Operations Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning.md"
+                "file": "Operations Research.md"
               }
             }
           }
@@ -148,19 +148,20 @@
   },
   "active": "6da394995d6ffa13",
   "lastOpenFiles": [
+    "Panimulang Pagsasalit.md",
+    "Operating Systems.md",
+    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
+    "Data Communications and Networking.md",
+    "Machine Learning.md",
     "Operations Research.md",
     "Media/Pasted image 20240117145907.png",
-    "Machine Learning.md",
     "Media/Pasted image 20240121152506.png",
     "Media/Pasted image 20240121152625.png",
     "Media/Pasted image 20240121152525.png",
-    "Panimulang Pagsasalit.md",
-    "Operating Systems.md",
     "First note.md",
     "Pre-Assessment activity_Sebastian.md",
     "Media/Pasted image 20240118180617.png",
     "Media/Pasted image 20240119102721.png",
-    "Data Communications and Networking.md",
     "README.md",
     "Media/Pasted image 20240117154339.png",
     "Media/Pasted image 20240117203008.png",

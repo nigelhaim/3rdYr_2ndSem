@@ -59,3 +59,12 @@ Wikipedia contributors. (2024a, January 16). _Linux mint_. Wikipedia. https://en
 Wikipedia contributors. (2024b, January 18). _Android 14_. Wikipedia. https://en.wikipedia.org/wiki/Android_14#:~:text=Android%2014%20is%20the%20fourteenth,)%20on%20October%204%2C%202023. 
 
 Google. (2024, January 18). _Chrome Releases_. Chrome Releases. https://chromereleases.googleblog.com/2024/
+
+
+
+
+### Classification of Hardware 
+- Input and Output devices
+- Printers: Higher DPI => Better image
+	- 
+
