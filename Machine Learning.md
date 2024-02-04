@@ -50,3 +50,20 @@
 
 #### Evaluation 
 - The most important to learn in this class
+
+### Linear Regression
+
+#### Loss Functions
+- Current output -> Expected output 
+- Loss function is the relationship between the hypothesis and conclusion 
+
+
+$t = \text{target or  predictions}$
+$X = \text{input}$
+$X^{(i)} \text{ for which } t^{(i)} = \text{Training samples}$
+The relationship of $X \text{ and } t$ = Model 
+Tells how the model approximates the target given the training = Loss
+Finding the parameters of a model  = Optimization 
+
+**We square values to make exponential adjustments based on the results**
+	
