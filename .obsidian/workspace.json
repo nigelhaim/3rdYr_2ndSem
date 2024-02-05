@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operations Research.md"
+                "file": "Machine Learning.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "6da394995d6ffa13",
   "lastOpenFiles": [
+    "Media/Pasted image 20240205081759.png",
+    "Operations Research.md",
     "Panimulang Pagsasalit.md",
     "Pre-Assessment activity_Sebastian.md",
     "README.md",
@@ -156,7 +158,6 @@
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "Data Communications and Networking.md",
-    "Operations Research.md",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
     "Media/Pasted image 20240117145907.png",
     "Media/Pasted image 20240121152506.png",

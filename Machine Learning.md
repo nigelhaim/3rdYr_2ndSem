@@ -66,4 +66,21 @@ Tells how the model approximates the target given the training = Loss
 Finding the parameters of a model  = Optimization 
 
 **We square values to make exponential adjustments based on the results**
-	
+
+
+
+**Stochastic **
+- Tignan isa isa bago update kaagad
+**Batch**
+- Tignan lahat bago update 
+
+$\lambda$ - learning rate 
+
+
+
+
+![[Pasted image 20240205081759.png]]
+
+
+
+
