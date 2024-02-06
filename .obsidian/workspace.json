@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e3b4d6fc5976882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Thesis 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operations Research.md",
+                "file": "Thesis 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operations Research.md"
+                "file": "Thesis 1.md"
               }
             }
           }
@@ -146,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6da394995d6ffa13",
+  "active": "0e3b4d6fc5976882",
   "lastOpenFiles": [
+    "Pasted image 20240206222000.png",
+    "Operations Research.md",
+    "Thesis 1.md",
+    "Media/Pasted image 20240205081759.png",
     "Panimulang Pagsasalit.md",
     "Pre-Assessment activity_Sebastian.md",
     "README.md",
@@ -156,7 +173,6 @@
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "Data Communications and Networking.md",
-    "Operations Research.md",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
     "Media/Pasted image 20240117145907.png",
     "Media/Pasted image 20240121152506.png",
@@ -167,7 +183,6 @@
     "Media/Pasted image 20240117154339.png",
     "Media/Pasted image 20240117203008.png",
     "Media/Pasted image 20240117201538.png",
-    "Media/Pasted image 20240117184620.png",
     "Untitled 1.md",
     "Media"
   ]
