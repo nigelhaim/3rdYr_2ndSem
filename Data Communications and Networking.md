@@ -243,3 +243,105 @@
 **CISCO IOS device - CISCO Internet Operating System** 
 
 
+
+
+# Basic Network Communication 
+
+1. Create a network topology which consists of the following devices:
+	a. 1x 2960 Switch 
+	b. 1x PC
+	c. 1x Server 
+
+>[!Note]- Connct the end devices to the switch
+>![[Pasted image 20240208225653.png]]
+
+2. Configure the following to the 2960 switch 
+	a. Hostname (the format of the hostname should be your last name + initials of your first name/ s + _sw)
+		Examples: lunia_sw
+		
+>[!Note]- Change the hostname 
+>![[Pasted image 20240208230717.png]]
+
+b. configure password encrypted fro line console and vty. Use your lastname +123 as password
+Example: luna123
+
+>[!Note]- Change the password for console
+>![[Pasted image 20240208231733.png]]
+>![[Pasted image 20240208234306.png]]
+
+
+>[!Note]- Change the password for VTY
+>![[Pasted image 20240208232110.png]]
+
+>[!Note]- service password encryption
+>![[Pasted image 20240208232220.png]]
+>
+
+c. configure a banner for the device login. Use this format "WARNING!" <your lastname's> propery. Authorized personel only!
+
+Example: "WARNING! Sebastian's property. Authorized personnel only!"
+
+>[!Note]- Banner
+>![[Pasted image 20240208234556.png]]
+>![[Pasted image 20240208234604.png]]
+
+d. Assign the IP address of interface vlan 1 to 172.16.0.1 255.255.255.0. Enable the interface by issuing the command “no shutdown”
+
+>[!Note]- Assign of IP address
+>![[Pasted image 20240208234800.png]]
+
+
+Configure the IP address of the PC: 
+a. IPv4 address: 172.16.0.2 
+
+b. Subnet Mask: 255.255.255.0 
+
+c. Default Gateway: 172.16.0.1
+
+>[!Note]- IP config of pc
+>![[Pasted image 20240208235204.png]]
+
+Configure the IP address of the Server: 
+
+a. IPv4 address: 172.16.0.3 
+
+b. Subnet Mask: 255.255.255.0 
+
+c. Default Gateway: 172.16.0.1
+
+>[!Note]- IP config of server
+>![[Pasted image 20240208235310.png]]
+
+On a new document, put the screenshots of the following: 
+a. Ping from PC to Switch 
+
+>[!Note]- Ping to Switch
+>![[Pasted image 20240209000156.png]]
+
+
+
+b. Ping from PC to Server 
+
+>[!Note]- Ping to Server
+>![[Pasted image 20240208235908.png]]
+
+
+c. Login of console access on switch showing the banner that you have created. 
+
+>[!Note]- Login
+>![[Pasted image 20240208235755.png]]
+>![[Pasted image 20240208235835.png]]
+
+d. Connect to the switch from the PC using telnet via command line. 
+
+>[!Note]- PC to switch
+>![[Pasted image 20240209000323.png]]
+
+
+e. Copy the running configuration then paste it (not screenshot) on the document. 
+
+>[!Note]- Show running config 
+>![[Pasted image 20240209000523.png]]
+
+
+f. Submit the document as PDF to Canvas with a file name of “Lastname_Firstname_ACT_1”.

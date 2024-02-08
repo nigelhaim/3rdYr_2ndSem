@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis 1.md",
+                "file": "Data Communications and Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis 1.md",
+                "file": "Data Communications and Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis 1.md",
+                "file": "Data Communications and Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis 1.md"
+                "file": "Data Communications and Networking.md"
               }
             }
           }
@@ -161,28 +161,27 @@
   },
   "active": "0e3b4d6fc5976882",
   "lastOpenFiles": [
-    "Pasted image 20240206222000.png",
-    "Operations Research.md",
+    "README.md",
+    "Media/Pasted image 20240206222000.png",
+    "Data Communications and Networking.md",
+    "Media/Pasted image 20240209000523.png",
+    "Media/Pasted image 20240209000323.png",
+    "Media/Pasted image 20240209000156.png",
+    "Media/Pasted image 20240208235925.png",
+    "Media/Pasted image 20240208235908.png",
+    "Media/Pasted image 20240208235835.png",
+    "Media/Pasted image 20240208235755.png",
+    "Media/Pasted image 20240208235720.png",
+    "Media/Pasted image 20240208235621.png",
     "Thesis 1.md",
-    "Media/Pasted image 20240205081759.png",
+    "Operations Research.md",
     "Panimulang Pagsasalit.md",
     "Pre-Assessment activity_Sebastian.md",
-    "README.md",
     "First note.md",
     "Machine Learning.md",
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
-    "Data Communications and Networking.md",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
-    "Media/Pasted image 20240117145907.png",
-    "Media/Pasted image 20240121152506.png",
-    "Media/Pasted image 20240121152625.png",
-    "Media/Pasted image 20240121152525.png",
-    "Media/Pasted image 20240118180617.png",
-    "Media/Pasted image 20240119102721.png",
-    "Media/Pasted image 20240117154339.png",
-    "Media/Pasted image 20240117203008.png",
-    "Media/Pasted image 20240117201538.png",
     "Untitled 1.md",
     "Media"
   ]
