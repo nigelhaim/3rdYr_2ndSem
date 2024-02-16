@@ -2,7 +2,6 @@
 
 | Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models already used | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Organ Segmentation |  |  |  |  |  |  |  |
 | Tumor/Cancer Segmentation | Breast Tumour | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | Image segmentation<br><br>Researches focuses more on Mammograms than Ultrasounds<br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
 |  | Lung Cancer | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model | Image segmentation |  |  | -MobileNetV2<br>- Transfer Learning |  |
 |  |  |  |  |  |  |  |  |
@@ -11,7 +10,11 @@
 |  |  | Deep learning approach for detection of Dengue fever from the microscopic images of blood smear [4] |  | Accuracy - 91.30%,<br>Sensitivity - 84.62%<br>Specificity - 100%<br>Precision - 100%<br>F1 score - 91.67% |  | Google Net |  |
 |  |  | Analyzing Blood Cells in Seconds With Deep Learning [5]<br><br>Say hello to athelas one [6] | Determines the concentration of different white blood cells. It is able to identify neutrophils, lymphocytes, platelets, and even measure hemoglobin — data points that comprise the traditional CBC (complete blood count).<br><br>There is no specific function for detecting dengue | NVIDIA had attempted to make a device with a homemade blood analytics machine |  | Athelas |  |
 |  |  | Intelligent algorithm for detection of dengue using mobilenetv2‐based deep features with lymphocyte nucleus [7] |  | Unaccessible |  | mobilenetv2-based deep features |  |
-| MRI Raw Data to Images  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+| MRI Raw Data to Images |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+| Lung cancer detection on Smoking |  |  |  |  |  |  |  |
+
 
 ### References
 
