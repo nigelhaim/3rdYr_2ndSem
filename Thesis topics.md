@@ -1,12 +1,14 @@
 
 
-| Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models already used |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Organ Segmentation |  |  |  |  |  |  |
-| Tumor/Cancer Segmentation | Breast Tumour | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | Image segmentation<br><br>Researches focuses more on Mammograms than Ultrasounds<br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool.  | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |
-|  | Lung Cancer | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model |  |  |  | - MobileNetV2<br>- Transfer Learning |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+| Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models already used | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Organ Segmentation |  |  |  |  |  |  |  |
+| Tumor/Cancer Segmentation | Breast Tumour | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | Image segmentation<br><br>Researches focuses more on Mammograms than Ultrasounds<br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
+|  | Lung Cancer | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model | Image segmentation |  |  | -MobileNetV2<br>- Transfer Learning |  |
+| Dengue Fever | Liver ultrasound segmentation |  | Dengue is an endemic in the Philippines |  |  |  |  |
+|  | Dengue Blood Smear segmentation | Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics | Usage of Peripheral Blood Smear (PBS) Images<br><br>Can be used on remote areas  |  |  |  | PBS are the Gold Standard for diagnosing various pathological conditions.<br><br>Accuracy of   |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 ### References
 
@@ -15,6 +17,7 @@
 
 [2] Riaz, Z., Khan, B., Abdullah, S., Khan, S., & Islam, M. S. (2023). Lung tumor image segmentation from computer tomography images using mobilenetv2 and transfer learning. _Bioengineering_, _10_(8), 981. https://doi.org/10.3390/bioengineering10080981
 
+[3] Mayrose, Hilda, et al. “Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics.” _Diagnostics_, vol. 13, no. 2, Jan. 2023, p. 220. _www.mdpi.com_, https://doi.org/10.3390/diagnostics13020220.
 
 ## Links
 
