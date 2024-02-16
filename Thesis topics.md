@@ -5,10 +5,13 @@
 | Organ Segmentation |  |  |  |  |  |  |  |
 | Tumor/Cancer Segmentation | Breast Tumour | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | Image segmentation<br><br>Researches focuses more on Mammograms than Ultrasounds<br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
 |  | Lung Cancer | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model | Image segmentation |  |  | -MobileNetV2<br>- Transfer Learning |  |
-| Dengue Fever | Liver ultrasound segmentation |  | Dengue is an endemic in the Philippines |  |  |  |  |
-|  | Dengue Blood Smear segmentation | Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics [3] | Usage of Peripheral Blood Smear (PBS) Images<br><br>Can be used on remote areas  |  |  |  | PBS are the Gold Standard for diagnosing various pathological conditions.<br>   |
-|  |  | Deep learning approach for detection of Dengue fever from the microscopic images of blood smear [4] |  | Accuracy - 91.30%,<br>Sensitivity - 84.62%<br>Specificity - 100%<br>Precision - 100%<br>F1 score - 91.67%  |  | Google Net |  |
 |  |  |  |  |  |  |  |  |
+| Dengue Fever | Liver ultrasound segmentation |  | Dengue is an endemic in the Philippines |  |  |  |  |
+|  | Dengue Blood Smear segmentation | Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics [3] | Usage of Peripheral Blood Smear (PBS) Images<br><br>Can be used on remote areas |  | https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria |  | PBS are the Gold Standard for diagnosing various pathological conditions.<br> |
+|  |  | Deep learning approach for detection of Dengue fever from the microscopic images of blood smear [4] |  | Accuracy - 91.30%,<br>Sensitivity - 84.62%<br>Specificity - 100%<br>Precision - 100%<br>F1 score - 91.67% |  | Google Net |  |
+|  |  | Analyzing Blood Cells in Seconds With Deep Learning [5]<br><br>Say hello to athelas one [6] | Determines the concentration of different white blood cells. It is able to identify neutrophils, lymphocytes, platelets, and even measure hemoglobin — data points that comprise the traditional CBC (complete blood count).<br><br>There is no specific function for detecting dengue | NVIDIA had attempted to make a device with a homemade blood analytics machine |  | Athelas |  |
+|  |  | Intelligent algorithm for detection of dengue using mobilenetv2‐based deep features with lymphocyte nucleus [7] |  | Unaccessible |  | mobilenetv2-based deep features |  |
+| MRI Raw Data to Images  |  |  |  |  |  |  |  |
 
 ### References
 
@@ -20,6 +23,12 @@
 [3] Mayrose, Hilda, et al. “Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics.” _Diagnostics_, vol. 13, no. 2, Jan. 2023, p. 220. _www.mdpi.com_, https://doi.org/10.3390/diagnostics13020220.
 
 [4] Mayrose, Hilda, et al. “Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics.” _Diagnostics_, vol. 13, no. 2, Jan. 2023, p. 220. _www.mdpi.com_, https://doi.org/10.3390/diagnostics13020220.
+
+[5] _Analyzing blood cells in seconds with deep learning_. (n.d.). Retrieved February 16, 2024, from https://www.youtube.com/watch?v=0J_XspPlJSY
+
+[6] _Say hello to athelas one_. (n.d.). Retrieved February 16, 2024, from https://www.athelas.com/insights/introducing-athelas-one
+
+[7] Mayrose, H., Sampathila, N., Bairy, G. M., Belurkar, S., Saravu, K., Basu, A., & Khan, S. (2023). Intelligent algorithm for detection of dengue using mobilenetv2‐based deep features with lymphocyte nucleus. _Expert Systems_, _40_(4), e12904. https://doi.org/10.1111/exsy.12904
 
 ## Links
 
