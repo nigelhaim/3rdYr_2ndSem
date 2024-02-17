@@ -1,8 +1,8 @@
 
 
-| Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models and algorithms used | Notes |
+| Domain | Research Topic | Related Literatures | Pros of the Field | Cons of the Field | Datasets | Models and algorithms used | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Tumor/Cancer  | Breast Tumour Segmentation | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | <br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
+| Tumor/Cancer | Breast Tumour Segmentation | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | <br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
 |  | Lung Cancer Segmentation | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model [11] | we observed that CNN outperformed other models and has been shown to be promising compared to traditional methods. It achieved an accuracy of 92%, AUC of 98.21%, recall of 91.72%, and loss of 0.328 |  |  | -MobileNetV2<br>- Transfer Learning |  |
 |  |  |  |  |  |  |  |  |
 | Dengue |  |  |  |  |  |  |  |
@@ -14,6 +14,8 @@
 | Spine | Spine Image Segmentation | Spine-GAN: Semantic segmentation of multiple spinal structures[8] | Spine-GAN achieves high pixel accuracy of 96.2%<br>Dice coefficient of 87.1%<br>Sensitivity of 89.1%<br>Specificity of 86.0% |  |  | propose a [Recurrent](https://www.sciencedirect.com/topics/engineering/recurrent "Learn more about Recurrent from ScienceDirect's AI-generated Topic Pages") [Generative Adversarial Network](https://www.sciencedirect.com/topics/computer-science/generative-adversarial-networks "Learn more about Generative Adversarial Network from ScienceDirect's AI-generated Topic Pages") called Spine-GAN |  |
 |  |  | Spinal magnetic resonance image segmentation based on U-net [9] | a cross-validation method was used to propose the use of CNN for precise segmentation of spinal MRI images, which achieved good results with an average segmentation accuracy of over 88%. |  |  | U-Net <br>U-Net ++ |  |
 |  |  | Automatic lumbar spinal MRI image segmentation with a multi-scale attention network [10] | The method was tested on real spine MRI data and evaluated through similarity metrics such as dice similarity coefficient and average surface distance. The results of these similarity metrics were 92.52% and 2.71 mm respectively. These results prove the effectiveness of our method. |  | https://github.com/anjany/verse?tab=readme-ov-file | MANet with U-Net |  |
+|  |  | Spine Image Segmentation Based on U-Net and Atrous spatial pyramid pooling [12] | ![[Pasted image 20240217203056.png]] |  |  | U-Net<br>SE-UNet<br>Own Method |  |
+|  |  |  |  |  |  |  |  |
 
 
 
@@ -42,8 +44,7 @@
 
 [11] Mamun, M., Mahmud, M. I., Meherin, M., & Abdelgawad, A. (2023). _Lcdctcnn: Lung cancer diagnosis of ct scan images using cnn based model_ (arXiv:2304.04814). arXiv. https://doi.org/10.48550/arXiv.2304.04814
 
-
-
+[12] _Radware bot manager captcha_. (n.d.). Retrieved February 17, 2024, from https://hcvalidate.perfdrive.com/fb803c746e9148689b3984a31fccd902//?ssa=4ce77ba4-5607-454a-9b37-155ecb8ea149&ssb=44080201259&ssc=https%3A%2F%2Fiopscience.iop.org%2Farticle%2F10.1088%2F1742-6596%2F2209%2F1%2F012020%2Fmeta&ssi=f2a63d1e-8427-40b5-902f-9211817fdbe5&ssk=support@shieldsquare.com&ssm=70251996758189295104115375916469&ssn=9113b7f309a4fc0073a00a46cc35c06bebec1db5fe5b-79c2-49f2-9611ed&sso=8a2be587-696553b2798aefe91fd80bab69a7342d5ff525b4f86d2f55&ssp=41782066941708166712170811436608016&ssq=52532697308051384899873080895786990097943&ssr=NTQuMTQ2LjU0Ljgw&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/120.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=W10=
 ## Links
 
 ### Datasets 
