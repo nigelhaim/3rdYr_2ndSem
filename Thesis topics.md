@@ -1,19 +1,20 @@
 
 
-| Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models already used | Notes |
+| Domain | Research Topic | Related Literatures | Pros of the study | Cons of the Study | Datasets | Models and algorithms used | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Tumor/Cancer Segmentation | Breast Tumour | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | Image segmentation<br><br>Researches focuses more on Mammograms than Ultrasounds<br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
-|  | Lung Cancer | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model | Image segmentation |  |  | -MobileNetV2<br>- Transfer Learning |  |
+| Tumor/Cancer  | Breast Tumour Segmentation | Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images [1] | <br> | It is considered Mammogram is better in detecting breast abnormalities within the breast tissue. Ultrasound is used as a complimentary tool. | https://scholar.cu.edu.eg/?q=afahmy/pages/dataset<br><br> | - Salient Map<br>- U-Net<br>- U-Net-SA<br>- U-Net-SA-C |  |
+|  | Lung Cancer Segmentation | Lung Tumor Image Segmentation from Computer Tomography Images Using MobileNetV2 and Transfer Learning [2]<br><br>LCDctCNN: Lung Cancer Diagnosis of CT scan Images Using CNN Based Model [11] | we observed that CNN outperformed other models and has been shown to be promising compared to traditional methods. It achieved an accuracy of 92%, AUC of 98.21%, recall of 91.72%, and loss of 0.328 |  |  | -MobileNetV2<br>- Transfer Learning |  |
 |  |  |  |  |  |  |  |  |
-| Dengue Fever | Liver ultrasound segmentation |  | Dengue is an endemic in the Philippines |  |  |  |  |
-|  | Dengue Blood Smear segmentation | Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics [3] | Usage of Peripheral Blood Smear (PBS) Images<br><br>Can be used on remote areas |  | https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria |  | PBS are the Gold Standard for diagnosing various pathological conditions.<br> |
-|  |  | Deep learning approach for detection of Dengue fever from the microscopic images of blood smear [4] |  | Accuracy - 91.30%,<br>Sensitivity - 84.62%<br>Specificity - 100%<br>Precision - 100%<br>F1 score - 91.67% |  | Google Net |  |
+| Dengue |  |  |  |  |  |  |  |
+|  | Dengue Blood Smear segmentation | Machine Learning-Based Detection of Dengue from Blood Smear Images Utilizing Platelet and Lymphocyte Characteristics [3] | Usage of Peripheral Blood Smear (PBS) Images<br><br> |  | https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria | blob detection algorithm | PBS are the Gold Standard for diagnosing various pathological conditions.<br> |
+|  |  | Deep learning approach for detection of Dengue fever from the microscopic images of blood smear [4] | Accuracy - 91.30%,<br>Sensitivity - 84.62%<br>Specificity - 100%<br>Precision - 100%<br>F1 score - 91.67% |  |  | Google Net |  |
 |  |  | Analyzing Blood Cells in Seconds With Deep Learning [5]<br><br>Say hello to athelas one [6] | Determines the concentration of different white blood cells. It is able to identify neutrophils, lymphocytes, platelets, and even measure hemoglobin — data points that comprise the traditional CBC (complete blood count).<br><br>There is no specific function for detecting dengue | NVIDIA had attempted to make a device with a homemade blood analytics machine |  | Athelas |  |
 |  |  | Intelligent algorithm for detection of dengue using mobilenetv2‐based deep features with lymphocyte nucleus [7] |  | Unaccessible |  | mobilenetv2-based deep features |  |
 |  |  |  |  |  |  |  |  |
-| MRI Raw Data to Images |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-| Lung cancer detection on Smoking |  |  |  |  |  |  |  |
+| Spine | Spine Image Segmentation | Spine-GAN: Semantic segmentation of multiple spinal structures[8] | Spine-GAN achieves high pixel accuracy of 96.2%<br>Dice coefficient of 87.1%<br>Sensitivity of 89.1%<br>Specificity of 86.0% |  |  | propose a [Recurrent](https://www.sciencedirect.com/topics/engineering/recurrent "Learn more about Recurrent from ScienceDirect's AI-generated Topic Pages") [Generative Adversarial Network](https://www.sciencedirect.com/topics/computer-science/generative-adversarial-networks "Learn more about Generative Adversarial Network from ScienceDirect's AI-generated Topic Pages") called Spine-GAN |  |
+|  |  | Spinal magnetic resonance image segmentation based on U-net [9] | a cross-validation method was used to propose the use of CNN for precise segmentation of spinal MRI images, which achieved good results with an average segmentation accuracy of over 88%. |  |  | U-Net <br>U-Net ++ |  |
+|  |  | Automatic lumbar spinal MRI image segmentation with a multi-scale attention network [10] | The method was tested on real spine MRI data and evaluated through similarity metrics such as dice similarity coefficient and average surface distance. The results of these similarity metrics were 92.52% and 2.71 mm respectively. These results prove the effectiveness of our method. |  | https://github.com/anjany/verse?tab=readme-ov-file | MANet with U-Net |  |
+
 
 
 ### References
@@ -33,14 +34,21 @@
 
 [7] Mayrose, H., Sampathila, N., Bairy, G. M., Belurkar, S., Saravu, K., Basu, A., & Khan, S. (2023). Intelligent algorithm for detection of dengue using mobilenetv2‐based deep features with lymphocyte nucleus. _Expert Systems_, _40_(4), e12904. https://doi.org/10.1111/exsy.12904
 
+[8] Han, Z., Wei, B., Mercado, A., Leung, S., & Li, S. (2018). Spine-GAN: Semantic segmentation of multiple spinal structures. _Medical Image Analysis_, _50_, 23–35. https://doi.org/10.1016/j.media.2018.08.005
+
+[9] Wang, Z., Xiao, P., & Tan, H. (2023). Spinal magnetic resonance image segmentation based on U-net. _Journal of Radiation Research and Applied Sciences_, _16_(3), 100627. https://doi.org/10.1016/j.jrras.2023.100627
+
+[10] Li, H., Luo, H., Huan, W., Shi, Z., Yan, C., Wang, L., Mu, Y., & Liu, Y. (2021). Automatic lumbar spinal MRI image segmentation with a multi-scale attention network. _Neural Computing & Applications_, _33_(18), 11589–11602. https://doi.org/10.1007/s00521-021-05856-4
+
+[11] Mamun, M., Mahmud, M. I., Meherin, M., & Abdelgawad, A. (2023). _Lcdctcnn: Lung cancer diagnosis of ct scan images using cnn based model_ (arXiv:2304.04814). arXiv. https://doi.org/10.48550/arXiv.2304.04814
+
+
+
 ## Links
 
 ### Datasets 
 - https://www.v7labs.com/blog/healthcare-datasets-for-computer-vision#h4
 - https://data.world/datasets/cancer
-
-
-#### Responses
 
 ## Medical Image Segmentation Ideas:
 
