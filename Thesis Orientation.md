@@ -169,3 +169,12 @@ Zero shot learning
 - You can explore other models like applying R2UNet on Zero shot 
 
 **Yung mga tinanggap kong advisees kaya niyo mag pivot**
+
+## Main dataset problems
+Tugma ba yung ACL and meniscus ID
+Same patient? 
+Features
+Labels 
+What if di siya tugma? 
+
+## Resources
