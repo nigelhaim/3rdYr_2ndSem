@@ -1,8 +1,7 @@
 ### Goals:
-Us: Best thesis 
-Sir: Conference or Journal (Higher)
+Best thesis →  Conferences or Journals
 
-Submission can be done even before the defense depending on sir's approval 
+Submission can be done even before the defense depending on the adviser's approval
 
 **Conference:**
 - 3 to 6 months
@@ -21,7 +20,7 @@ Submission can be done even before the defense depending on sir's approval
 - 6 months to two years
 - Free
 
-###### What sir's goals
+###### Adviser's goals
 - Students are given to have the opportunities to do speeches 
 - 3 out of 4 groups are going to Japan
 - To publish his advisees work
@@ -33,10 +32,9 @@ Submission can be done even before the defense depending on sir's approval
 	- Can ask but cannot answer
 - Calling a friend 
 - Proposal
-	- Once a week
+	- Once a week meetings
 	- Can be more
 	- Planning stage 
-	- Sir is focused on us
 - Implementation
 	- A bit lie low 
 	- Can report 2 times a week
@@ -50,7 +48,7 @@ Submission can be done even before the defense depending on sir's approval
 	- Improving each other 
 	- Once per month 
 - Approval for defense 
-	- If sir finds something wrong there will be consequences 
+	- Possible consequences on failure to secure the research's integrity
 		- Spend another semester 
 		- Change the topic 
 	- Expect on the delays and deliverables 
@@ -61,32 +59,22 @@ Submission can be done even before the defense depending on sir's approval
 
 #### Be aware of 
 - Other advisers that could take offense on how we approach the thesis 
-- Misconstrode 
 - Usually on Machine learning 
 - Conflicting of ideas and opinions
 - Do not enforce even they are wrong 
 
-### Being wait-listed and accepted 
-- only 2 groups 
-- Likes the idea and enthusiasm 
-- Potential 
-- Mas maganda lang yung documentation ng other groups 
-- Likes our area
-- All classmates have good ideas but we have a more solidified idea 
-
-
 ### Research guidelines
 **FAILURE**
-- DI dirediretso
+- Di dirediretso
 - Possible pivot
 - Implementation is the part where problems occur
 - Push through vs Change topic in the last minute 
 - Tyaga rin talaga siya sa ihip ng hangin
 
 ## Consultation
-**Pursue**
+**The group decided to pursue**
 - Available dataset 
-	- Exported into image
+	- Can be exported into image
 	- Looping of image exportation 
 	- Trained ACL and trained Miniscus on the same sample 
 		- What is the specific problem?
@@ -94,7 +82,7 @@ Submission can be done even before the defense depending on sir's approval
 		- Bakit sila na hihirapan? 
 			- Aftermath of the injury 
 			- Even if before surgery because of the similarities of ACL and Meniscus
-			- Sir
+			- Adviser's comments
 				- Good for introduction 
 		- To classify or to segment? 
 			- To classify
@@ -104,7 +92,7 @@ Submission can be done even before the defense depending on sir's approval
 				- Meron on research on implementation muna pero wala pang Deep Learning 
 				- Focused on the individual lang but not both 
 				- So far wala pa talaga nakapag attempt 
-				- Sir findings: 
+				- Adviser's findings: 
 					- If wala pa talaga then maganda ang contribution 
 					- Radiologist are validation
 					- Work is already in the baseline 
@@ -122,10 +110,10 @@ Submission can be done even before the defense depending on sir's approval
 							- Consider the 3d dataset 
 						- On the model 
 							- Be careful on the lacking of contextual information
-							- Computational cost if youre going to use 3D 
+							- Computational cost if you're going to use 3D 
 							- MRI is more focused on the Segmentation approaches 
 				- Try to pivot on an alternative dataset 
-				- We only have a month left if youre gonna pivot then better to pivot early 
+				- We only have a month left if you're gonna pivot then better to pivot early 
 				- Don't be too attached on the topic
 				-  Ang gawin is look further details on the dataset or look for other datasets
 				- Good progress is we already have a benchmark on how we look on dataset
@@ -135,25 +123,24 @@ Submission can be done even before the defense depending on sir's approval
 				- Do not label the dataset, be careful on how you use the data
 				- Minimum
 					- For each numpy file is ACL and Meniscus are present? 
-					- 
-- Kess
-	- Ayusin ang problem statement
-		- More on classification 
 
-If were gonna find another topic what is a good way to find other topics
-- Chismis siya 
+- Ayusin ang problem statement
+	- current research problem is leaning to classification 
+	- Updating the research problem to segmentation
+	- 
+
+#### If were gonna find another topic what is a good way to find other topics
+- Its like "Chismis"
 	- Have doubts, investigate, piece together and have opinion
 	- Critique the papers and find out the holes.
 	- Question even the smallest things
 	- Everything has an advantage and disadvantage 
-	- Bakit hindi nagwowork yung current methods nila sa ACL and Meniscus
-	- Way ni sir:
-		- Abstract -> methodology -> Conclusions
-		- Methodologies could help you find the landscape of the study 
-		- Sir sometimes even skip the results 
+	- Bakit hindi nagwowork yung current methods nila sa ACL and Meniscus?
+	- Abstract →  Methodology → Conclusions
+	- Methodologies could help you find the landscape of the study 
 	- For undergrads 
 		- There is an architecture and we propose something 
-		- Sir wants: How it could help and whats the basis of the study 
+		- How it could help and whats the basis of the study 
 		- Based on what we have read this is the reason why they lack. 
 	- Object detection 
 		- Areas of interest 
@@ -161,11 +148,11 @@ If were gonna find another topic what is a good way to find other topics
 		- Classify and segmentation 
 			- is this really what youre looking for 
 
-Zero shot learning 
+## Zero shot learning 
 - Separate field 
 - Assuming the data is correct 
 	- Better the research gap has also applied the zero shot 
 - Not much familiarity 
 - You can explore other models like applying R2UNet on Zero shot 
 
-**Yung mga tinanggap kong advisees kaya niyo mag pivot**
+**Potential of being adaptive and ready to pivot anytime**
