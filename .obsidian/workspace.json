@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c78f5176b9f703a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis Orientation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a5c871132ceeaf6c",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Thesis Orientation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Thesis Orientation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis topics.md"
+                "file": "Thesis Orientation.md"
               }
             }
           }
@@ -160,8 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e3b4d6fc5976882",
+  "active": "4c78f5176b9f703a",
   "lastOpenFiles": [
+    "Thesis topics.md",
+    "Thesis Orientation.md",
     "Panimulang Pagsasalit.md",
     "Data Communications and Networking.md",
     "README.md",
@@ -175,7 +188,6 @@
     "Media/Pasted image 20240208235755.png",
     "Media/Pasted image 20240208235720.png",
     "Media/Pasted image 20240208235621.png",
-    "Thesis topics.md",
     "Operations Research.md",
     "Pre-Assessment activity_Sebastian.md",
     "First note.md",
