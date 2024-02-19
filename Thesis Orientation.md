@@ -132,6 +132,10 @@ Submission can be done even before the defense depending on sir's approval
 				- Focus on the metrics too. 
 				- Make sure the dataset has labels 
 				- Check on the performances on other researches based on the dataset
+				- Do not label the dataset, be careful on how you use the data
+				- Minimum
+					- For each numpy file is ACL and Meniscus are present? 
+					- 
 - Kess
 	- Ayusin ang problem statement
 		- More on classification 
@@ -163,4 +167,5 @@ Zero shot learning
 	- Better the research gap has also applied the zero shot 
 - Not much familiarity 
 - You can explore other models like applying R2UNet on Zero shot 
-- 
+
+**Yung mga tinanggap kong advisees kaya niyo mag pivot**
