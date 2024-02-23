@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operating Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis Orientation.md"
+                "file": "Operating Systems.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "4c78f5176b9f703a",
   "lastOpenFiles": [
-    "Thesis topics.md",
     "Thesis Orientation.md",
+    "Thesis topics.md",
     "Panimulang Pagsasalit.md",
     "Data Communications and Networking.md",
     "README.md",
