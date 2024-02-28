@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Data Communications and Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e30d9f2c685750c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis topics.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -183,13 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c44896f914f59529",
+  "active": "e30d9f2c685750c5",
   "lastOpenFiles": [
+    "Thesis topics.md",
+    "Untitled.md",
+    "Data Communications and Networking.md",
     "Media/Pasted image 20240226140739.png",
     "Thesis Orientation.md",
-    "Thesis topics.md",
     "Panimulang Pagsasalit.md",
-    "Data Communications and Networking.md",
     "README.md",
     "Media/Pasted image 20240206222000.png",
     "Media/Pasted image 20240209000523.png",
@@ -200,7 +213,6 @@
     "Media/Pasted image 20240208235835.png",
     "Media/Pasted image 20240208235755.png",
     "Media/Pasted image 20240208235720.png",
-    "Media/Pasted image 20240208235621.png",
     "Operations Research.md",
     "Pre-Assessment activity_Sebastian.md",
     "First note.md",
