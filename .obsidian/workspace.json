@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "03f9909ee77b5248",
+        "id": "0fb41451595c37dd",
         "type": "tabs",
         "children": [
           {
-            "id": "6da394995d6ffa13",
+            "id": "b669841879761570",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operations Research.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5aa3e86b31ccfaf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operations Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis Orientation.md",
+                "file": "Operations Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis Orientation.md"
+                "file": "Operations Research.md"
               }
             }
           }
@@ -146,14 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6da394995d6ffa13",
+  "active": "b669841879761570",
   "lastOpenFiles": [
+    "Machine Learning.md",
+    "Thesis Orientation.md",
+    "Media/Pasted image 20240223203438.png",
     "Thesis topics.md",
     "Operations Research.md",
     "2024-02-19.md",
-    "Thesis Orientation.md",
-    "Pasted image 20240217203056.png",
-    "Pasted image 20240217203053.png",
+    "Media/Pasted image 20240217203056.png",
+    "Media/Pasted image 20240217203053.png",
     "Panimulang Pagsasalit.md",
     "Data Communications and Networking.md",
     "README.md",
@@ -164,10 +178,8 @@
     "Media/Pasted image 20240208235925.png",
     "Media/Pasted image 20240208235908.png",
     "Media/Pasted image 20240208235835.png",
-    "Media/Pasted image 20240208235755.png",
     "Pre-Assessment activity_Sebastian.md",
     "First note.md",
-    "Machine Learning.md",
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",

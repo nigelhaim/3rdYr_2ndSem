@@ -82,5 +82,13 @@ $\lambda$ - learning rate
 ![[Pasted image 20240205081759.png]]
 
 
+>[!Note]- Confusion Matrix
+>![[Pasted image 20240223203438.png]]
 
+# Formulas
 
+$$Precision  = \frac{\text{True Positives}}{\text{True Positives + False Positive}}$$
+
+$$Accuracy = \frac{\text{True positives + True Negatives}}{\text{True positives + True negatives + False positives + False negatives}}$$
+$$Recall = \frac{\text{True positive}}{\text{True positives + False negatives}}$$
+$$F1 = \frac{2*\text{Precision}*\text{Recall}}{\text{Precision + Recall}}$$
