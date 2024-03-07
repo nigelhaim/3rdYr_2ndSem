@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "03f9909ee77b5248",
+        "id": "0fb41451595c37dd",
         "type": "tabs",
         "children": [
           {
-            "id": "6da394995d6ffa13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operations Research.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e3b4d6fc5976882",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thesis topics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c78f5176b9f703a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c44896f914f59529",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Communications and Networking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e30d9f2c685750c5",
+            "id": "b669841879761570",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5aa3e86b31ccfaf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis topics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Thesis topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Thesis topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Thesis topics.md"
               }
             }
           }
@@ -195,14 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e30d9f2c685750c5",
+  "active": "5aa3e86b31ccfaf3",
   "lastOpenFiles": [
-    "Thesis topics.md",
     "Untitled.md",
-    "Data Communications and Networking.md",
+    "Thesis topics.md",
     "Media/Pasted image 20240226140739.png",
+    "Operations Research.md",
+    "Machine Learning.md",
     "Thesis Orientation.md",
+    "Media/Pasted image 20240223203438.png",
+    "2024-02-19.md",
+    "Media/Pasted image 20240217203056.png",
+    "Media/Pasted image 20240217203053.png",
     "Panimulang Pagsasalit.md",
+    "Data Communications and Networking.md",
     "README.md",
     "Media/Pasted image 20240206222000.png",
     "Media/Pasted image 20240209000523.png",
@@ -210,13 +180,8 @@
     "Media/Pasted image 20240209000156.png",
     "Media/Pasted image 20240208235925.png",
     "Media/Pasted image 20240208235908.png",
-    "Media/Pasted image 20240208235835.png",
-    "Media/Pasted image 20240208235755.png",
-    "Media/Pasted image 20240208235720.png",
-    "Operations Research.md",
     "Pre-Assessment activity_Sebastian.md",
     "First note.md",
-    "Machine Learning.md",
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
