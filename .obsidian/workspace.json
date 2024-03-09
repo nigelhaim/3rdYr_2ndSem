@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b669841879761570",
+            "id": "5aa3e86b31ccfaf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Thesis/Thesis topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5aa3e86b31ccfaf3",
+            "id": "68f34ea63d06a15f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Proposed New Thesis Topic.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a5c871132ceeaf6c",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Proposed New Thesis Topic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis topics.md",
+                "file": "Proposed New Thesis Topic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis topics.md"
+                "file": "Proposed New Thesis Topic.md"
               }
             }
           }
@@ -159,14 +160,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5aa3e86b31ccfaf3",
+  "active": "68f34ea63d06a15f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Thesis topics.md",
+    "Thesis/Thesis topics.md",
+    "Proposed New Thesis Topic.md",
+    "atherosclerotic plaques.md",
+    "Thesis/2nd Consultation.md",
+    "Thesis",
+    "St. Thomas Aquinas Jubilee Retreat.md",
+    "Pasted image 20240308232045.png",
     "Media/Pasted image 20240226140739.png",
     "Operations Research.md",
     "Machine Learning.md",
-    "Thesis Orientation.md",
+    "Thesis/Thesis Orientation.md",
     "Media/Pasted image 20240223203438.png",
     "2024-02-19.md",
     "Media/Pasted image 20240217203056.png",
@@ -179,13 +185,11 @@
     "Media/Pasted image 20240209000323.png",
     "Media/Pasted image 20240209000156.png",
     "Media/Pasted image 20240208235925.png",
-    "Media/Pasted image 20240208235908.png",
     "Pre-Assessment activity_Sebastian.md",
     "First note.md",
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
-    "Untitled 1.md",
     "Media"
   ]
 }
