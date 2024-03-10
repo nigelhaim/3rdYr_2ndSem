@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "March 1 Activity.md",
+                "file": "March 1-8 Activity.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a5c871132ceeaf6c",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "March 1 Activity.md",
+                "file": "March 1-8 Activity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "March 1 Activity.md",
+                "file": "March 1-8 Activity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March 1 Activity.md"
+                "file": "March 1-8 Activity.md"
               }
             }
           }
@@ -174,7 +175,7 @@
   "active": "0a6fbfa656b77cc5",
   "lastOpenFiles": [
     "Proposed New Thesis Topic.md",
-    "March 1 Activity.md",
+    "March 1-8 Activity.md",
     "Thesis/Thesis topics.md",
     "atherosclerotic plaques.md",
     "Thesis/2nd Consultation.md",
