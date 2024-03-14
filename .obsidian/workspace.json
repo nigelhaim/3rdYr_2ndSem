@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Thesis/Thesis topics.md",
                 "mode": "source",
                 "source": false
@@ -37,14 +38,15 @@
             "state": {
               "type": "markdown",
               "state": {
+=======
+>>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
                 "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a5c871132ceeaf6c",
@@ -172,22 +173,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a6fbfa656b77cc5",
+  "active": "5aa3e86b31ccfaf3",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Pasted image 20240314182029.png",
     "Untitled.md",
     "Machine Learning.md",
     "March 1&8 Activity.md",
     "Proposed New Thesis Topic.md",
+=======
+>>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
     "Thesis/Thesis topics.md",
-    "atherosclerotic plaques.md",
+    "Thesis/Thesis Orientation.md",
     "Thesis/2nd Consultation.md",
     "Thesis",
     "St. Thomas Aquinas Jubilee Retreat.md",
+    "Proposed New Thesis Topic.md",
     "Pasted image 20240308232045.png",
+    "March 1-8 Activity.md",
+    "Thesis topics.md",
+    "Untitled.md",
     "Media/Pasted image 20240226140739.png",
     "Operations Research.md",
+<<<<<<< HEAD
     "Thesis/Thesis Orientation.md",
+=======
+    "Machine Learning.md",
+    "Thesis Orientation.md",
+>>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
     "Media/Pasted image 20240223203438.png",
     "2024-02-19.md",
     "Media/Pasted image 20240217203056.png",
@@ -205,6 +218,7 @@
     "Operating Systems.md",
     "Other Documents/SDD_TigreTech.pdf",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
+    "Untitled 1.md",
     "Media"
   ]
 }
