@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "March 1-8 Activity.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "March 1-8 Activity.md",
+                "file": "Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "March 1-8 Activity.md",
+                "file": "Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "March 1-8 Activity.md"
+                "file": "Machine Learning.md"
               }
             }
           }
@@ -174,8 +174,11 @@
   },
   "active": "0a6fbfa656b77cc5",
   "lastOpenFiles": [
+    "Pasted image 20240314182029.png",
+    "Untitled.md",
+    "Machine Learning.md",
+    "March 1&8 Activity.md",
     "Proposed New Thesis Topic.md",
-    "March 1-8 Activity.md",
     "Thesis/Thesis topics.md",
     "atherosclerotic plaques.md",
     "Thesis/2nd Consultation.md",
@@ -184,7 +187,6 @@
     "Pasted image 20240308232045.png",
     "Media/Pasted image 20240226140739.png",
     "Operations Research.md",
-    "Machine Learning.md",
     "Thesis/Thesis Orientation.md",
     "Media/Pasted image 20240223203438.png",
     "2024-02-19.md",

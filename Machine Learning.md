@@ -81,6 +81,84 @@ $\lambda$ - learning rate
 
 ![[Pasted image 20240205081759.png]]
 
+Index card prelim exam 
+------------------
+
+AI - The study and creation of machines that perform tasks normally associated with intelligence 
+Relevance - Can be applied to every sector new possibilities and efficiencies 
+
+**Phsychologists** - how people work. Machine can help
+**Engineers** - building machines can do useful tasks 
+
+Inception (43-56)
+- model of artificial neurons 
+- any computable function could be computed by some network of connected neurons 
+
+Enthusiasm, great expectations (52-69)
+- researchers responded by demonstrating 
+- taks considered indicative of intelligence in humans 
+
+Reality(66-73)
+- primarily based on "informed introspection"
+- lack of appreciation of intractability 
+Expert Systems (69-86)
+- Alternative to weak methods - use more powerful domain-specific knowledge taht allows larger reasoning steps 
+Neural Networks, ML, Prob reasoning(86-)
+- Reinvented the back-propagation learning algorithm 
+- more scientific approach incorporating probability
+Big Data and Deep Leearning (2001-, 2011-)
+- BigData - Large datasets 
+- deep learning - ML using mutliple layers of simple, adjustable computing elements (CNN - 1970)
+
+ML - takes examples and produces a program that does the job
+
+Output space - Target variable that is desired to be estimated 
+Hypothesis - speculative relationship between the input and output spaces
+Input space - Variables/Features/Attributes
+
+Types of learning 
+
+Supervised - Maps inputs to outputs. Learning to predict an output given an input vector. Learning by examples.
+
+Classification - Categoral outputs 
+Regression - Real-valued outputs 
+
+Unsupervised - Learn patterns in input data without feedback. Create an internal representation of the input, capturing regularities/structure in data. Learning by discovery. Output corresponding to input is not provided 
+
+Reinforcement - Learn actions causing occasional rewards and punishments. Learn by experimentation 
+
+Pre processing- includes anything that needs to be done on the data prior to feeding it to the model 
+
+Feature engineering - Manipulation of the data set to improve machine learning model training. 
+
+Data cleaning - proccess of fixing or removing, incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset
+
+Scaling and Normalization - transform the range of features of data. 
+
+Splitting the Data - model validation procedure that allows to simulate how a model would perform 
+
+Modelling - description of a system using math concepts represents of objects and relationships and languages 
+
+Evaluation - process of using different evaluation to understand a machine a ML model's performance, strengths and weaknesses
 
 
+AI - Intelligent behavior - ML - learning from data to make predictions - DL - Learning using artificial neural networks 
 
+Loss Functions - computes the distance between current output and the expected output. Maps an event or values of one or more variables onto a real number 
+
+Optimization problem seeks to minimize a loss function 
+
+
+Regression - statistical technique that relates a dependent variable to one/more independent variables
+What to predict 
+![[Pasted image 20240314182029.png]]
+
+
+Batch updates - sum of average updates accross every example
+
+Stochastic updates - update parameters for each training case in turn according to its won gradients
+Gradient descent to solve for each coefficient, or compute analytically.
+
+Generalization is the model’s ability to predict the held out data
+
+ridge regression -penalty on the squared weights
