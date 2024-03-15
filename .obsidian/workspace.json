@@ -1,45 +1,18 @@
 {
   "main": {
-    "id": "a085e97513fbe41f",
+    "id": "c427c1b5625a1453",
     "type": "split",
     "children": [
       {
-        "id": "0fb41451595c37dd",
+        "id": "fc566ef5043e1eb7",
         "type": "tabs",
         "children": [
           {
-            "id": "5aa3e86b31ccfaf3",
+            "id": "0ca45d3c8aa43107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Thesis/Thesis topics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68f34ea63d06a15f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposed New Thesis Topic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a6fbfa656b77cc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-=======
->>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
                 "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
@@ -52,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0a7131ae9cad6082",
+    "id": "763d35934b56e42d",
     "type": "split",
     "children": [
       {
-        "id": "549c44cb005a2f50",
+        "id": "95bce3882f0c28e7",
         "type": "tabs",
         "children": [
           {
-            "id": "175bbe7ed4f68a6b",
+            "id": "50e91fe3090ea1b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,7 +43,7 @@
             }
           },
           {
-            "id": "4fe765da9e3e0dac",
+            "id": "d795c3112e4bb20b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -85,7 +58,7 @@
             }
           },
           {
-            "id": "ac95048d305e291f",
+            "id": "842e25e1485c9054",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,18 +69,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "a5c871132ceeaf6c",
+    "id": "322f72cbdf501b1e",
     "type": "split",
     "children": [
       {
-        "id": "5e2c7e63dee26148",
+        "id": "e4dd578ed11484af",
         "type": "tabs",
         "children": [
           {
-            "id": "97318281a1b0bc5e",
+            "id": "724d11b2b1bac9f4",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -124,7 +98,7 @@
             }
           },
           {
-            "id": "026eb1ddebd60ba0",
+            "id": "09b31ca838368225",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -136,7 +110,7 @@
             }
           },
           {
-            "id": "0ba57ca7fe5519f6",
+            "id": "d848dddf2e45d97f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,7 +121,7 @@
             }
           },
           {
-            "id": "4de8f3b10ffb80c3",
+            "id": "7a89b3827f2244ba",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -173,52 +147,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5aa3e86b31ccfaf3",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Pasted image 20240314182029.png",
-    "Untitled.md",
-    "Machine Learning.md",
-    "March 1&8 Activity.md",
-    "Proposed New Thesis Topic.md",
-=======
->>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
-    "Thesis/Thesis topics.md",
-    "Thesis/Thesis Orientation.md",
-    "Thesis/2nd Consultation.md",
-    "Thesis",
-    "St. Thomas Aquinas Jubilee Retreat.md",
-    "Proposed New Thesis Topic.md",
-    "Pasted image 20240308232045.png",
-    "March 1-8 Activity.md",
-    "Thesis topics.md",
-    "Untitled.md",
-    "Media/Pasted image 20240226140739.png",
-    "Operations Research.md",
-<<<<<<< HEAD
-    "Thesis/Thesis Orientation.md",
-=======
-    "Machine Learning.md",
-    "Thesis Orientation.md",
->>>>>>> 6b00075716f18781783734b9350d5dc84ec1ee99
-    "Media/Pasted image 20240223203438.png",
-    "2024-02-19.md",
-    "Media/Pasted image 20240217203056.png",
-    "Media/Pasted image 20240217203053.png",
-    "Panimulang Pagsasalit.md",
-    "Data Communications and Networking.md",
-    "README.md",
-    "Media/Pasted image 20240206222000.png",
-    "Media/Pasted image 20240209000523.png",
-    "Media/Pasted image 20240209000323.png",
-    "Media/Pasted image 20240209000156.png",
-    "Media/Pasted image 20240208235925.png",
-    "Pre-Assessment activity_Sebastian.md",
-    "First note.md",
-    "Operating Systems.md",
-    "Other Documents/SDD_TigreTech.pdf",
-    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
-    "Untitled 1.md",
-    "Media"
-  ]
+  "active": "0ca45d3c8aa43107",
+  "lastOpenFiles": []
 }

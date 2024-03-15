@@ -241,3 +241,86 @@ Gradient descent to solve for each coefficient, or compute analytically.
 Generalization is the model’s ability to predict the held out data
 ridge regression -penalty on the squared weights
 
+Classification - arranging things into kinds of things / groups of classes 
+
+Regression - continous variables 
+Classification - categorical outputs
+
+Classification as a regression problem? Yes, ignore the output is categorical 
+
+Linear classification - based on the value of a linear combination. To learn good decision boundaries 
+
+Classes can be perfectly serparate classes = linearly serparable problem 
+
+causes of non perfect serparation 
+- Model too simple 
+- Noise 
+- Simple features does not account 
+- Errors on target 
+
+Recall - fraction of relevant instances that are retrived 
+
+Precision - fraction of retrived instances taht are relevant 
+
+
+Accuracy - fraction of correct instances 
+
+F1 - Harmonic mean of precision and recall 
+
+Regression - Statistical technique that relates a dependent variable to one or more independent variables 
+
+Logistic regression - Models the probability of an event taking place 
+Probability - numerical descriptions of how likely an event is to occur 
+
+Frequentist probability - 1000 times = 500h and 500t
+subjectivist probability - probability based on velief and gives constitutions for logically consistent beliefs 
+
+Experiment - produces exactly one out of several outcomes 
+sample space - set of possible outcomes 
+
+event - subset of sample space 
+
+Bayes formula - logically consistent way of reasoning about evidence and consequences of evidence 
+
+probability model - assigns probabilities to events
+
+Conditional probability - outcome based on the previous outcome 
+
+Decision trees - Tree-like model of decisions and their possible consequences
+
+High Entropy - Uniform distribution, less predictable 
+Low entropy - peaks and valleys, more predictable 
+
+Instance-based learning - comparison of new problem instances seen in training 
+
+Sigmoid function - converts real-valued inputs to have values of 0 to 1
+
+
+K-Nearest - Non parametic supervised learning classifier which uses proximity to make classifications or predictions 
+
+Larger k may lead to better performance 
+
+Unsupervised learning - work on their own to discover the inherent structure of data (dont need labels)
+
+Clustering - Grouping of set of similar objects 
+
+Euclidean distance - defines similarity 
+
+K-means clustering - centroid-based clustering, calculates the distance between each data point and a centroid to assign to a cluster 
+
+Hierarchical clustering - analysis that seeks to build a hierarchy of clusters. Does not require a pre-specified choice  of K 
+
+Dimensionality Reduction - high to lower dimensions data set ensuring similar information 
+
+Covariance - measure of the joint variability of two random variables 
+
+vector space - set whose elements often called vectors, Generalize Euclidean vectors that has a magnitude and direction 
+
+subspace - vector space that is a subset of some larger vector space 
+
+Orthonormality - orthonormal vectors are both perpendicular to each other and have a length of 1
+
+Principal component analysis - maps in a high dimension data to a low dimension space. Variance of the data in the lower dimension space should be maximum 
+
+principal components - eigenvecors that are analogous to the principal axes of an ellipse
+
