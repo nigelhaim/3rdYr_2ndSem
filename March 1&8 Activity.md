@@ -1,5 +1,6 @@
-# March 1 - 8 Activity
+# March 1 & March 8 Activity
 
+Alessandro Andrei Araza
 Nigel Haim Sebastian 
 Lex Zedrick Lorenzo
 

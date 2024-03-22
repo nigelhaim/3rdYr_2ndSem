@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a085e97513fbe41f",
+    "id": "669528e6b4460835",
     "type": "split",
     "children": [
       {
-        "id": "0fb41451595c37dd",
+        "id": "eac5f8b5790d15d5",
         "type": "tabs",
         "children": [
           {
-            "id": "5aa3e86b31ccfaf3",
+            "id": "d2299105f5922d90",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0a7131ae9cad6082",
+    "id": "aa24c54fb17cdfd2",
     "type": "split",
     "children": [
       {
-        "id": "549c44cb005a2f50",
+        "id": "3407d754cd91da4e",
         "type": "tabs",
         "children": [
           {
-            "id": "175bbe7ed4f68a6b",
+            "id": "17d58787b49fe208",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "4fe765da9e3e0dac",
+            "id": "bed782c2f22a7a7f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "ac95048d305e291f",
+            "id": "4ee1476207775e3e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,18 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "a5c871132ceeaf6c",
+    "id": "3ffa4d934e217daa",
     "type": "split",
     "children": [
       {
-        "id": "5e2c7e63dee26148",
+        "id": "1c218d6f6944f064",
         "type": "tabs",
         "children": [
           {
-            "id": "97318281a1b0bc5e",
+            "id": "a04a705f6aa050b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "026eb1ddebd60ba0",
+            "id": "e985e730b3c97cf8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "0ba57ca7fe5519f6",
+            "id": "2d0318ef27076acd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "4de8f3b10ffb80c3",
+            "id": "d19753efac9376bb",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -146,41 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5aa3e86b31ccfaf3",
+  "active": "d2299105f5922d90",
   "lastOpenFiles": [
-    "Machine Learning.md",
-    "Thesis/5th Consultation.md",
     "Thesis/Thesis topics.md",
-    "Thesis/Thesis Orientation.md",
+    "Media/Pasted image 20240308232045.png",
+    "Thesis/5th Consultation.md",
     "Thesis/2nd Consultation.md",
-    "Thesis",
-    "St. Thomas Aquinas Jubilee Retreat.md",
-    "Proposed New Thesis Topic.md",
-    "Pasted image 20240308232045.png",
-    "March 1-8 Activity.md",
-    "Thesis topics.md",
+    "Machine Learning.md",
     "Untitled.md",
-    "Media/Pasted image 20240226140739.png",
-    "Operations Research.md",
+    "Thesis topics.md",
     "Thesis Orientation.md",
+    "Media/Pasted image 20240319145916.png",
+    "Media/Pasted image 20240319142339.png",
+    "Media/Pasted image 20240314182029.png",
+    "Microbleed segmentation.md",
     "Media/Pasted image 20240223203438.png",
-    "2024-02-19.md",
     "Media/Pasted image 20240217203056.png",
     "Media/Pasted image 20240217203053.png",
-    "Panimulang Pagsasalit.md",
-    "Data Communications and Networking.md",
-    "README.md",
-    "Media/Pasted image 20240206222000.png",
-    "Media/Pasted image 20240209000523.png",
-    "Media/Pasted image 20240209000323.png",
-    "Media/Pasted image 20240209000156.png",
-    "Media/Pasted image 20240208235925.png",
-    "Pre-Assessment activity_Sebastian.md",
-    "First note.md",
-    "Operating Systems.md",
-    "Other Documents/SDD_TigreTech.pdf",
-    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
-    "Untitled 1.md",
-    "Media"
+    "March 1&8 Activity.md",
+    "March 1-8 Activity.md"
   ]
 }

@@ -1,34 +1,58 @@
 
+Its been two weeks since the last meeting 
 ## Kamustahan
 - Software Engineering 
 - Buhay pa naman 
-
 ### Progress
 - Good to pursue 
 - There is no model much more complicated to U-Net
+-  The topic is exciting
 
 #### Ventures
 ##### Andy
-- Theres a lot of preprocessing 
+- There's a lot of preprocessing 
+- If there is false positive 
+	- They will check the adjacent slices if there is an actual microbleed
 - Some datasets have multiple or adjacent slices 
 	- Slices of the current state of the brain 
-- Cirtique 
-	- Can you change the postprocessing and change it to the currence 
+- Critique 
+	- Can you change the postprocessing and change it to the recurrence
+		- Revised model per layer
 	- Para End-to-End 
-- This really lacks research 
+- This really lacks research (There is a lot of problems)
 - Data Augmentation 
+	- Upsampling the images 
 	- Could introduce artifacts
-	-  How can it be fair 
+	-  How can it be fair if there is no upsampling
 	- Scaling up can really create artifacts (all pictures are made equal resolution) 
-	- False positive - 118
-	- Total Data - 119 
+	- False positive - 117
+	- Total Microbleeds on the dataset - 118 
+	- Specificity - 95.2
+	- The main problem is the resolution of the images
+
+$Specificity = \frac{True negative}{True Negative + False positive}$
+
 - The dataset is not consistent 
-- Theres a lot of two stage processing 
-	- its ok but not super ok 
-	- Therese two types of object detection 
-		- Propose regions of interest
-		- Classification 
-	- Computation expensive 
+	- 512x512 pixels
+	- 256x256 pixels
+- The did not split the data
+- Two stage processing 
+	- Res U Net - First stage core segmentation
+	- Fine Segmentation - Second Stage 
+	- There is a lot of two stage processing 
+		- Is it really necessary 
+		- Can we just use one network? 
+	- Its "medyo" ok but not super ok 
+		- Anything possible that is a microbleed the model looks at it 
+		- The second part filters what is better
+		- Inspired from object detection
+	- Therese two types of object detection
+		- 1 Stage (Much efficient)
+			- Simultaneous detection of regions of interest and Classification 
+		- 2 Stage (Much expensive in memory)
+			- Propose regions of interest
+			- Classification 
+- Residuality improves performance 
 
 ##### Kess
 - Automated detection of microbleeds to severe injury 
