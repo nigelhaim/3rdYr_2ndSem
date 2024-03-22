@@ -55,69 +55,81 @@ $Specificity = \frac{True negative}{True Negative + False positive}$
 - Residuality improves performance 
 
 ##### Kess
-- Automated detection of microbleeds to severe injury 
+- Automated detection of cerebral microbleeds in traumatic brain injury
 - 4 models to compare 
 	- Traditional two stage approach (Baseline)
-	- Patch CNN (Classifcication)
+	- Patch CNN (Classification)
 	- Segmentation CNN 
-	- UNet has the highest results 
-	- Segmenation is better than classification
-- Focused on severe cases 
-- Fewer cases of microbleeds results to not good results 
-- There is localization on what regions on the brain 
+	- U-Net (has the highest results) 
+- Segmentation is better than classification
+- There are cases of clustered microbleeds that are counted as one 
+- Focused on moderate to severe cases 
 - Applied on hard sample learning 
 - Used U-Net 
 - All microbleeds results to True Positive or False positive 
+- There are papers that is good on minimal microbleeds but has low performance on more microbleeds 
+- There is localization on what regions on the brain 
+- Contextual information learning
+- Hard sample prototype sampling to reduce false positive (Something we could use)
 - Ciritique 
-	- Problem on clustered microbleeds to solve this a heatmap is applied 
-	- But there is no count on the microbleed
+	- Problem on clustered microbleeds to solve this a heatmap is applied if there are two or more picks it is considered as clustered but the counting of microbleeds is not applied 
+	- The model finds difficulty on minimal microbleeds
 	- What if the microbleeds are really valid on the non-regions 
-	- Too focused on the specific regions 
-- Theres a lot of opportunities for research 
+	- Too focused on the specific regions
+-  There is a lot of opportunities for research
+- There are different strategies from different papers that focuses on the mimics and actual microbleeds
 - Single stage 
 	- Are all single stage processing efficient? 
 #### VALDO Dataset 
 
-The VALDO datasets are only writeup more on submission only but there is a documentation of the VALDO dataset validity. All results are below the optimal results. 
+The VALDO datasets are only writeup more on submission only but there is a documentation of the VALDO dataset validity. 
+
+All results are below the .9 threshold 
 - Conference side this is a good contribution 
 
 The segmentations are too small 
 
-We can work on both if you can find new datasets 
-
-Anemia and Melanoma had two datasets (2016 and 2018) and compared. Its not necessarily to focus on one dataset. 
+What if we found other datasets? 
+- We can work on both if you can find new datasets 
+- Anemia and Melanoma had two datasets (2016 and 2018) and compared. Its not necessarily to focus on one dataset. 
 
 Will it become an issue? 
 - Last minute dataset changing can happen
 
 Different resolutions 
-- Lossless compression and Lossley infromation 
+- Lossless compression and Loosely information 
 
 Transfer Learning 
+- Possible to set the baseline can we get from other learnings? 
+	- ML project 
+	- Don't expect that it would work 
 - Doable 
-- Dont expect that it is 100% work better if there is an initial run 
-- Assumption is youre going to do transfer learning anyway 
+- Don't expect that it is 100% work better if there is an initial run 
+- Assumption is you're going to do transfer learning anyway 
 - Train it on the same data set including the splitting of data.
+- It is comparable
 
 #### Are there other datasets? 
-- There are other datasets but theres a stric requrement 
-- These too much information 
+- There are other datasets but there's a strict requirement 
+	- Need credentials as a researcher 
+- There is a lot of data but there is no segmentation map 
 - The more datasets the better
 - Can you contact them? 
 	- To much process 
-	
 - There are other dataset but the problem is there is not segmentation map 
 - Synthetic is medical (Scary)
 
-
+**The more datasets the better**
 #### What is the final Research problem? 
+- All problems are **valid**
+- - The default problem is similar on the Meniscus problem 
 - Package all the problems as a research problem 
 - The increasing of performance should only act as a byproduct of the thesis 
 - It is important is "What is the problem?"
 	- Case management system 
 		- In terms of adoption is it easy to adopt it in the business? 
 - Your projects should 
-- If your manager doesnt have the same mindset as yours it could act as a redflag 
+- If your manager doesn't have the same mindset as yours it could act as a red flag 
 - People who excel in work who finds problems are good assets 
 - Its good to use R2U-Net but what is the problem? 
 - Form the problem and think of the solutions for that 
@@ -127,8 +139,9 @@ Transfer Learning
 		- How do you implement a larger scope 
 	- Post processing 
 		- Keeping the base and imbedding them on the architecture 
-- How can your proposed solution address these problems? 
-- Create a methdology
+- How can your proposed solution address these problems?
+- What is your objective? 
+- Create a methodology
 	- How do you plan to address these problems? 
 - You can package them into one 
 	- Each subproblem solved dictates to solve the main problem 
@@ -136,18 +149,25 @@ Transfer Learning
 	- Can you make one approach that strikes them out in one? 
 		- If you can package them in one and larger scope then pwede niyo siya isabay as a problem 
 		- Can be hard in the experimentation
-		- Masters level and **might** need more time to finish 
+			- Masters/PhD level and **might** need more time to finish 
 			- Its an expectation to be delayed 
 		- Undergraduate students focuses on one because of the time 
-		- The more you try to think or adjust the methodology the more it could separate from other problems you want to attack 
+		- The more you try to think or adjust the methodology the more it could strays away from other problems you want to attack 
+		- Your problems should be quantifiable
+		- Strict on the problem but more strict in the solution
 		- What is the problem workable on your end? 
 		- Have backup problems
 		- In terms of the content 
-			- Each suproblems you can create a paper for that 
+			- Each subproblems you can create a paper for that 
+		- Thesis does not broadens but deepens on the topic 
 - 1 Problem
-	- 
+	- Because you need to think on how to solve 
 - 2 Methodology 
+	- Coming from the papers of how you read 
 	- The answer can be found on other areas of medical imaging
 	- Apply your approaches 
+- Can now cite results and use the train and test split  
 
-Theres always a flaw in the paper. Theres always needed to be solved. Kahit solved na what else needs to be solved? Deep Learning approach is data intensive. Provide a good segmentation on a fewer data. Cite on the results on non-published. 
+There's always a flaw in the paper. There's always needed to be solved. Kahit solved na what else needs to be solved? Deep Learning approach is data intensive. Provide a good segmentation on a fewer data. Cite on the results on non-published. 
+
+**Can now start the paper (background)**
