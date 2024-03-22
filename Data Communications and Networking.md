@@ -345,3 +345,6 @@ e. Copy the running configuration then paste it (not screenshot) on the document
 
 
 f. Submit the document as PDF to Canvas with a file name of “Lastname_Firstname_ACT_1”.
+
+
+

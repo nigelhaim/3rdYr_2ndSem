@@ -1,0 +1,50 @@
+- question ni lex kung pwede mag record
+	- pwede raw
+- update sa dataset
+	- lex pinapakita  yung papers para sa mrnet dataset
+	- 2 links
+	- 194 exams nagoccur both meniscus and acl tears within 1370 knees
+	- additional info na need meron sa paper like demographic and protocols
+	- di specified yung specific attributes per patient
+	- tinanong kung same ba number ng 194 talaga yung same occurrence sa dataset talaga pag chineck
+	- may backup study about sa different planes ng mri scans
+		- another study na ni-cite yung study about sa mrnet dataset
+	- confirm at bare minimum na same meniscus at acl
+- questions ni sir
+	- gusto pa rin ba ipursue
+	- willing ba mag work na kahit maliit dataset na 194 lang
+		- andy - sabi na ibang papers na kaya ng models mag work sa maliit na dataset
+	- tanong if may study na ba gumawa about sa meniscus tear and acl tear
+	- labels ba nito is merong segmentation or classifying lang na presence same tears
+	- tinaong si nigel kung ano nararamdaman niya
+		- okay si nigel dahil naaaccess na namin yung datasets at nacoconvert to images
+		- si lex naman nafefeel excited kasi naconfirm na yung dataset so pwede na raw magproceed hopefully
+		- si andy ay masaya dahil may dataset na kami, tas yung question is kung pwede na mag start sa chaps 1 at 2
+		- chap 1 lang muna pwede magstart
+		- basahin yung previous papers na gumawa ng same meniscus and acl. dapat maintindihan na piece by piece yung paper
+			- check kung valid problem and kung naiintindi natin yung approach
+			- para makatulong gumawa sa research problem
+			- check kung ano meron sa gawa nila
+			- yung research problem should anchor sa literature na nabasa
+			- check kung anong parts ay inefficient, like hindi nacacapture yung pixels ng image tas ano yun
+			- know ins and outs ng previous paper
+			- check kung anong approach gusto natin ipursue
+			- yung other group is using vision transformers so dapat alamin pano masosolve yung problems
+			- explain what is happening ng related paper and how we solve it
+			- problem minsan is nalolost yung panelist sa research problem
+			- di naman need lahat ma answer agad
+	It is safe to start with the intro dahil may dataset pero hanggang dun lang sa pag introduce ng acl tears and meniscus tears
+	- sa bandang simula pa lang
+	- yung bandang baba ng intro is connecting sa ibang chapters
+	- need malaman kung ano problem masosolve bago makapagstart
+- andy - tanong if need ipropose yung mathematical equation ng models and if gagana siya or pano gagana
+	- highlight the part the solution if necessary
+	- only dive deeper sa parts na important na crucial sa topic
+	- some things need ma-cut talaga sa discussion
+	- better kung mashow yung mathematical equations
+	- para maasssess na rin kung naiintindihan ng lahat yung ginawang models
+- ano pa ba kailangang gawin
+	- wala naman 
+	- dapat mabasa na yung literatures para maform na rrl
+- mas magfocus sa algorithms or cs aspects ng cs field kesa clinical aspects
+	- ilagay na lagn sa significance yung clinical
