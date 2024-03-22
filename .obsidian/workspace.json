@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Thesis/5th Consultation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Thesis/5th Consultation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Thesis/5th Consultation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning.md"
+                "file": "Thesis/5th Consultation.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "5aa3e86b31ccfaf3",
   "lastOpenFiles": [
+    "Machine Learning.md",
+    "Thesis/5th Consultation.md",
     "Thesis/Thesis topics.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/2nd Consultation.md",
@@ -160,7 +162,6 @@
     "Untitled.md",
     "Media/Pasted image 20240226140739.png",
     "Operations Research.md",
-    "Machine Learning.md",
     "Thesis Orientation.md",
     "Media/Pasted image 20240223203438.png",
     "2024-02-19.md",
