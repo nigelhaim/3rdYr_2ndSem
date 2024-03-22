@@ -135,7 +135,10 @@ $\lambda$ - learning rate
 
 Number of layer network = Total number of layers - 1 
 
+>[!Note]- Confusion Matrix
+>![[Pasted image 20240223203438.png]]
 
+<<<<<<< HEAD
 **Representational power**
 - The higher the hidden neurons the more complicated
 - At least one hidden layer is a universal appropriator 
@@ -335,3 +338,11 @@ Capacity of the network increases with more hidden units and more hidden layers
 Backpropagation - efficient method for computing gradient-based optimization of the weights in a multi-layet network 
 
 Error gradient is computable for any continuous activation function
+
+# Formulas
+
+$$Precision  = \frac{\text{True Positives}}{\text{True Positives + False Positive}}$$
+
+$$Accuracy = \frac{\text{True positives + True Negatives}}{\text{True positives + True negatives + False positives + False negatives}}$$
+$$Recall = \frac{\text{True positive}}{\text{True positives + False negatives}}$$
+$$F1 = \frac{2*\text{Precision}*\text{Recall}}{\text{Precision + Recall}}$$

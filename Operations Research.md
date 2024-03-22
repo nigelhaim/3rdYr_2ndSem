@@ -138,3 +138,8 @@ then
 
 https://www.youtube.com/watch?v=Bzzqx1F23a8
 
+
+
+### Northwest corner Rule 
+
+-https://youtu.be/yTdq5oDOoB4?si=DY9yz3D8tSm2svBZ
