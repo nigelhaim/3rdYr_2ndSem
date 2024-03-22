@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "610406fb1ff69de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microbleed segmentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Microbleed segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning.md",
+                "file": "Microbleed segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning.md"
+                "file": "Microbleed segmentation.md"
               }
             }
           }
@@ -147,6 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ca45d3c8aa43107",
-  "lastOpenFiles": []
+  "active": "610406fb1ff69de2",
+  "lastOpenFiles": [
+    "Pasted image 20240319145916.png",
+    "Pasted image 20240319142339.png",
+    "March 1&8 Activity.md",
+    "Operations Research.md",
+    "Panimulang Pagsasalit.md",
+    "Pasted image 20240308232045.png",
+    "Pasted image 20240314182029.png",
+    "Pre-Assessment activity_Sebastian.md",
+    "Proposed New Thesis Topic.md",
+    "St. Thomas Aquinas Jubilee Retreat.md",
+    "Untitled.md",
+    "README.md",
+    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
+    "Microbleed segmentation.md",
+    "Operating Systems.md",
+    "Machine Learning.md",
+    "First note.md"
+  ]
 }

@@ -222,7 +222,6 @@ Evaluation - process of using different evaluation to understand a machine a ML 
 
 AI - Intelligent behavior - ML - learning from data to make predictions - DL - Learning using artificial neural networks 
 
-<<<<<<< HEAD
 Loss Functions - computes the distance between current output and the expected output. Maps an event or values of one or more variables onto a real number 
 
 Optimization problem seeks to minimize a loss function 
@@ -324,3 +323,15 @@ Principal component analysis - maps in a high dimension data to a low dimension 
 
 principal components - eigenvecors that are analogous to the principal axes of an ellipse
 
+Neural Networks - mathematical models that use learning algorithms inspired by the brain 
+
+McCullough and Pitts(1944) - arranged to weights but not layers. Results more neuroscience than computer science 
+
+units - artificial neurons
+Neural network with at least one hidden layer is a universal approximator (can represent any function).
+
+Capacity of the network increases with more hidden units and more hidden layers
+
+Backpropagation - efficient method for computing gradient-based optimization of the weights in a multi-layet network 
+
+Error gradient is computable for any continuous activation function
