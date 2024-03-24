@@ -170,4 +170,4 @@ Transfer Learning
 
 There's always a flaw in the paper. There's always needed to be solved. Kahit solved na what else needs to be solved? Deep Learning approach is data intensive. Provide a good segmentation on a fewer data. Cite on the results on non-published. 
 
-**Can now start the paper (background)**
+**Can now start the paper (background)** 
