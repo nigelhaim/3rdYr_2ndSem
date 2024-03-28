@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Notes.md",
+                "file": "Thesis/Research Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3ffa4d934e217daa",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Notes.md",
+                "file": "Thesis/Research Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Notes.md",
+                "file": "Thesis/Research Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Notes.md"
+                "file": "Thesis/Research Problem.md"
               }
             }
           }
@@ -148,10 +149,11 @@
   },
   "active": "d2299105f5922d90",
   "lastOpenFiles": [
+    "Thesis/Notes.md",
+    "Thesis/Research Problem.md",
     "Thesis/Thesis topics.md",
     "Thesis/March 22 Meeting.md",
     "Thesis/Thesis Orientation.md",
-    "Thesis/Notes.md",
     "Pasted image 20240324102343.png",
     "Thesis/2nd Consultation.md",
     "Media/Pasted image 20240308232045.png",
