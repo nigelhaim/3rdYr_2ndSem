@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2299105f5922d90",
+            "id": "3a3ae7df4fd1ba65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1c33187a550a79f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +30,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3e707be055c1c50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/SOP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9eaec53a5d15b351",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3ffa4d934e217daa",
@@ -86,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Research Problem.md",
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Research Problem.md",
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Research Problem.md"
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
               }
             }
           }
@@ -147,17 +181,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2299105f5922d90",
+  "active": "9eaec53a5d15b351",
   "lastOpenFiles": [
-    "Thesis/Notes.md",
+    "Machine Learning.md",
     "Thesis/Research Problem.md",
-    "Thesis/Thesis topics.md",
-    "Thesis/March 22 Meeting.md",
+    "Thesis/SOP.md",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Thesis/Thesis Orientation.md",
+    "Thesis/Thesis topics.md",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf.crdownload",
+    "Thesis/Notes.md",
+    "Thesis/March 22 Meeting.md",
     "Pasted image 20240324102343.png",
     "Thesis/2nd Consultation.md",
     "Media/Pasted image 20240308232045.png",
-    "Machine Learning.md",
     "Untitled.md",
     "Thesis topics.md",
     "Thesis Orientation.md",

@@ -14,11 +14,11 @@
 - Brain Extraction Tool used to obtain binary masks of the brain tissue from MR magnitude images. 
 - Volumetric datum of Dataset 2 was interpolated so it has the same slice thickness as Dataset 1.
 	- Cropped from the size of 512 x 448 x 72 → 360 x 360 x 72 
-	- Discarding the empty background fom the top, bottom, right and lift sides.
+	- Discarding the empty background from the top, bottom, right and lift sides.
 	- **Resized** to 360 x 360 x 360 to ensure the images to be square 
 - The contrast of the SWI images was stretched by mapping the pixel intensity values to new wider range such that the image’s histogram was linearly scaled, and the values were evenly distributed from maximum to minimum (eg 255 to 0 on an 8-Bit image).
 
-**Proposeed Detection Network**
+**Proposed Detection Network**
 - Each detection network of the TPE-Det is based on EfficientDet.
 - EfficientDet can simultaneously detect the location of multiple CMBs, providing coordinates of bounding boxes with confidence scores as output.
 - Independently trained on the three axis images 
@@ -29,7 +29,7 @@
 
 ### Personal Insights 
 
-Yung pinaka main problm talaga dito is na manipulate nila yung Dataset 2 na gawing malapit sa Dataset 1. Resizing and binago yung contrast. Pwed maglead sa artifacts yung resizing. Yung pagmanipulatee naman sa contrast pwede siya maglead into grainy images (depending sa strength ng pagbago) tapos pwede rin magintroduct ng mimic microbleeds lalo na sa mga darker pixels.  Yung EfficientDet isa siyang variation ng U-Net na gumagamit ng fewer parameters pero better results ginamit lang yung box detection. Na mention sa paper na nagmamatter yung deph and other parameters ng isang microbleed. Doon papasok yung idea ng Segmentation. In terms rin sa limitation ng study, is biased yung training sa Dataset 1 kaya daming false positives sa Dataset 2, pwede natin gawin is transfer learning.
+Yung pinaka main problm talaga dito is na manipulate nila yung Dataset 2 na gawing malapit sa Dataset 1. Resizing and binago yung contrast. Pwede maglead sa artifacts yung resizing. Yung pagmanipulate naman sa contrast pwede siya maglead into grainy images (depending sa strength ng pagbago) tapos pwede rin magintroduce ng mimic microbleeds lalo na sa mga darker pixels.  Yung EfficientDet isa siyang variation ng U-Net na gumagamit ng fewer parameters pero better results ginamit lang yung box detection. Na mention sa paper na nagmamatter yung deph and other parameters ng isang microbleed. Doon papasok yung idea ng Segmentation. In terms rin sa limitation ng study, is biased yung training sa Dataset 1 kaya daming false positives sa Dataset 2. Na pansin ko rin dito 3D images sila so I'm not sure if feasible siya sa dataset natin. 
 
 ## Toward Automated Detection of Microbleeds with Anatomical Scale Localization: A Complete Clinical Diagnosis Support Using Deep Learning
 
@@ -45,7 +45,7 @@ Yung pinaka main problm talaga dito is na manipulate nila yung Dataset 2 na gawi
 - all MR images of each subject were normalized using min-max normalization
 - applied slice interpolation to increase the number of slices in the z-direction to 224 slices in the case of the CMB detection task
 - data cropping is essential for 3D network training
-	- cropping the whole MR image into 128128128 voxels for the detection task and 646416 voxels for the anatomical localization task
+	- cropping the whole MR image into 128128128 voxels for the detection task and 64x64x16 voxels for the anatomical localization task
 
 **Proposed Network**
 - incorporates the U-Net and RPN of Faster R-CNN
@@ -56,4 +56,16 @@ Yung pinaka main problm talaga dito is na manipulate nila yung Dataset 2 na gawi
 - incorporates the Feature Fusion Module (FFM) and Hard Sample Prototype Learning (HSPL).
 
 **Feature Fusion Module (FFM)**
+- first path is a contracting path that captures the context features, while the other path is an expanding path that upsamples the reduced feature to its original resolution
+	- upsampled results are concatenated with feature maps of the same size in the contracting path
+	- FFM that involves the contextual information into the final feature map
+	- do not expand the reduced feature map into original input size because the bounding box regression module finds the fine-tuned center of bounding boxes
+	- This module makes the network more robust in distinguishing between CMBs and CMB mimics.
+**Hard Sample Prototype Learning (HSPL)**
+- mines CMB mimics and generates concentration loss during training
+- due to the sparse and tiny properties of CMBs, the HSPL crops the data based on the rule that the number of crops containing CMBs equals the crops that do not contain the CMBs
+- After the cropped data passes the backbone and RPN, the HSPL finds coordinates of CMB and CMB mimic using label and probability map $P \epsilon R^{d*w*h}$ , where d, w, and h are depth, width, and height, respectively.
+- in the case of data not containing CMB, it is assumed that there is a CMB mimic in the cropped data, and the point with the highest confidence score in its probability map is considered as the point where the CMB mimic is located
 
+### Personal Insights 
+- Maganda yung idea na ginamitan ng HSPL pero ang ginawa is more on probability. So what if yung mimic is an actual microbleed? Sabihin natin during training malaki yung percentage na dedetect doon sa region is mimic pero pagdating sa test microbleed pala. Di ba lalaki yung false negative? In terms sa FFM nakaka improve siya ng accuracy, pero di ko alam paano siya nakaka detect ng mimics. May na kita ako better version rin ng FFM (https://youtu.be/ZnDu7pGPMVI?si=yK1ZLAzqvHFZOwf1) baka mas ok yung improvement pagginamit. Based sa preprocessing and post processing parang 3 stage na rin ito.    
