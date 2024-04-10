@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/SOP.md",
+                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3ffa4d934e217daa",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/SOP.md",
+                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/SOP.md",
+                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/SOP.md"
+                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md"
               }
             }
           }
@@ -183,8 +184,9 @@
   },
   "active": "c3e707be055c1c50",
   "lastOpenFiles": [
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Thesis/SOP.md",
+    "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Machine Learning.md",
     "Thesis/Research Problem.md",
     "Thesis/Thesis Orientation.md",
