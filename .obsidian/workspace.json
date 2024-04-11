@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a3ae7df4fd1ba65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e1c33187a550a79f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
-                "mode": "source",
-                "source": false
+                "file": "Thesis/More-RRL-Araza (1).pdf"
               }
             }
           },
@@ -35,19 +21,11 @@
             "id": "c3e707be055c1c50",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Thesis/electronics-10-02208 (1).pdf"
-              }
-            }
-          },
-          {
-            "id": "9eaec53a5d15b351",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Thesis/More-RRL-Araza (1).pdf"
+                "file": "Panimulang Pagsasalit.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -118,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
+                "file": "Panimulang Pagsasalit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
+                "file": "Panimulang Pagsasalit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md"
+                "file": "Panimulang Pagsasalit.md"
               }
             }
           }
@@ -179,24 +157,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1c33187a550a79f",
+  "active": "c3e707be055c1c50",
   "lastOpenFiles": [
-    "Machine Learning.md",
+    "Pasted image 20240324102343.png",
+    "Panimulang Pagsasalit.md",
+    "Untitled.md",
+    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
     "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
-    "Thesis/electronics-10-02208 (1).pdf",
+    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
+    "Thesis/Localized Regions/Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation.pdf",
+    "Thesis/Localized Regions/Localized Region Contrast for Enhancing.pdf",
+    "Thesis/Localized Regions/Brain tumor segmentation based on region of interest-aided localization and segmentation U-Net.pdf",
+    "Thesis/Localized Regions/Machine-learning method for localization of cerebral white matter hyperintensities in healthy adults based on retinal images.pdf",
+    "Thesis/Localized Regions",
+    "Thesis/Local",
+    "Thesis/New folder",
+    "Thesis/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
+    "Thesis/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf.opdownload",
+    "Machine Learning.md",
     "Thesis/2nd Consultation.md",
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Thesis/Research Problem.md",
-    "Thesis/More-RRL-Araza (1).pdf",
     "Thesis/SOP.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/Thesis topics.md",
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf.crdownload",
     "Thesis/Notes.md",
     "Thesis/March 22 Meeting.md",
-    "Pasted image 20240324102343.png",
     "Media/Pasted image 20240308232045.png",
-    "Untitled.md",
     "Thesis topics.md",
     "Thesis Orientation.md",
     "Media/Pasted image 20240319145916.png",

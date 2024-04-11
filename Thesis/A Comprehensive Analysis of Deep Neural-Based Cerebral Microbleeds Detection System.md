@@ -16,3 +16,5 @@ Wang, Q., & Yuan, Y. (2014). Learning to resize image. _Neurocomputing_, _131_
 Liang, X. (2020). Chapter 1—Theoretical basis. In X. Liang (Ed.), _Ascend AI Processor Architecture and Programming_ (pp. 1–40). Elsevier. https://doi.org/10.1016/B978-0-12-823488-4.00001-1
 
 - Dito ko siya na basa since may bayad yung book. https://www.sciencedirect.com/topics/computer-science/rgb-image
+
+
