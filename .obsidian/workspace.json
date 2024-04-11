@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/Research Problem.md",
+                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,11 +35,9 @@
             "id": "c3e707be055c1c50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
-                "mode": "source",
-                "source": false
+                "file": "Thesis/electronics-10-02208 (1).pdf"
               }
             }
           },
@@ -49,12 +47,12 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
+                "file": "Thesis/More-RRL-Araza (1).pdf"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3ffa4d934e217daa",
@@ -182,22 +179,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3e707be055c1c50",
+  "active": "e1c33187a550a79f",
   "lastOpenFiles": [
-    "Thesis/More-RRL-Araza (1).pdf",
-    "Thesis/electronics-10-02208 (1).pdf",
-    "Thesis/SOP.md",
-    "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Machine Learning.md",
+    "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
+    "Thesis/electronics-10-02208 (1).pdf",
+    "Thesis/2nd Consultation.md",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Thesis/Research Problem.md",
+    "Thesis/More-RRL-Araza (1).pdf",
+    "Thesis/SOP.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/Thesis topics.md",
     "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf.crdownload",
     "Thesis/Notes.md",
     "Thesis/March 22 Meeting.md",
     "Pasted image 20240324102343.png",
-    "Thesis/2nd Consultation.md",
     "Media/Pasted image 20240308232045.png",
     "Untitled.md",
     "Thesis topics.md",
