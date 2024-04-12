@@ -81,9 +81,6 @@ $\lambda$ - learning rate
 
 ![[Pasted image 20240205081759.png]]
 
-
-
-
 # Neural Networks 
 - **Graphs has 2 things** 
 	- Nodes
@@ -138,7 +135,10 @@ $\lambda$ - learning rate
 
 Number of layer network = Total number of layers - 1 
 
+>[!Note]- Confusion Matrix
+>![[Pasted image 20240223203438.png]]
 
+<<<<<<< HEAD
 **Representational power**
 - The higher the hidden neurons the more complicated
 - At least one hidden layer is a universal appropriator 
@@ -162,3 +162,193 @@ Number of layer network = Total number of layers - 1
 - Backpropogation is a bit complicated to derive 
 
 
+Index card prelim exam 
+------------------
+
+AI - The study and creation of machines that perform tasks normally associated with intelligence 
+Relevance - Can be applied to every sector new possibilities and efficiencies 
+
+**Phsychologists** - how people work. Machine can help
+**Engineers** - building machines can do useful tasks 
+
+Inception (43-56)
+- model of artificial neurons 
+- any computable function could be computed by some network of connected neurons 
+
+Enthusiasm, great expectations (52-69)
+- researchers responded by demonstrating 
+- taks considered indicative of intelligence in humans 
+
+Reality(66-73)
+- primarily based on "informed introspection"
+- lack of appreciation of intractability 
+Expert Systems (69-86)
+- Alternative to weak methods - use more powerful domain-specific knowledge taht allows larger reasoning steps 
+Neural Networks, ML, Prob reasoning(86-)
+- Reinvented the back-propagation learning algorithm 
+- more scientific approach incorporating probability
+Big Data and Deep Leearning (2001-, 2011-)
+- BigData - Large datasets 
+- deep learning - ML using mutliple layers of simple, adjustable computing elements (CNN - 1970)
+
+ML - takes examples and produces a program that does the job
+
+Output space - Target variable that is desired to be estimated 
+Hypothesis - speculative relationship between the input and output spaces
+Input space - Variables/Features/Attributes
+
+Types of learning 
+
+Supervised - Maps inputs to outputs. Learning to predict an output given an input vector. Learning by examples.
+
+Classification - Categoral outputs 
+Regression - Real-valued outputs 
+
+Unsupervised - Learn patterns in input data without feedback. Create an internal representation of the input, capturing regularities/structure in data. Learning by discovery. Output corresponding to input is not provided 
+
+Reinforcement - Learn actions causing occasional rewards and punishments. Learn by experimentation 
+
+Pre processing- includes anything that needs to be done on the data prior to feeding it to the model 
+
+Feature engineering - Manipulation of the data set to improve machine learning model training. 
+
+Data cleaning - proccess of fixing or removing, incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset
+
+Scaling and Normalization - transform the range of features of data. 
+
+Splitting the Data - model validation procedure that allows to simulate how a model would perform 
+
+Modelling - description of a system using math concepts represents of objects and relationships and languages 
+
+Evaluation - process of using different evaluation to understand a machine a ML model's performance, strengths and weaknesses
+
+
+AI - Intelligent behavior - ML - learning from data to make predictions - DL - Learning using artificial neural networks 
+
+Loss Functions - computes the distance between current output and the expected output. Maps an event or values of one or more variables onto a real number 
+
+Optimization problem seeks to minimize a loss function 
+
+
+Regression - statistical technique that relates a dependent variable to one/more independent variables
+What to predict 
+![[Pasted image 20240314182029.png]]
+
+
+Batch updates - sum of average updates accross every example
+
+Stochastic updates - update parameters for each training case in turn according to its won gradients
+Gradient descent to solve for each coefficient, or compute analytically.
+
+Generalization is the model’s ability to predict the held out data
+ridge regression -penalty on the squared weights
+
+Classification - arranging things into kinds of things / groups of classes 
+
+Regression - continous variables 
+Classification - categorical outputs
+
+Classification as a regression problem? Yes, ignore the output is categorical 
+
+Linear classification - based on the value of a linear combination. To learn good decision boundaries 
+
+Classes can be perfectly serparate classes = linearly serparable problem 
+
+causes of non perfect serparation 
+- Model too simple 
+- Noise 
+- Simple features does not account 
+- Errors on target 
+
+Recall - fraction of relevant instances that are retrived 
+
+Precision - fraction of retrived instances taht are relevant 
+
+
+Accuracy - fraction of correct instances 
+
+F1 - Harmonic mean of precision and recall 
+
+Regression - Statistical technique that relates a dependent variable to one or more independent variables 
+
+Logistic regression - Models the probability of an event taking place 
+Probability - numerical descriptions of how likely an event is to occur 
+
+Frequentist probability - 1000 times = 500h and 500t
+subjectivist probability - probability based on velief and gives constitutions for logically consistent beliefs 
+
+Experiment - produces exactly one out of several outcomes 
+sample space - set of possible outcomes 
+
+event - subset of sample space 
+
+Bayes formula - logically consistent way of reasoning about evidence and consequences of evidence 
+
+probability model - assigns probabilities to events
+
+Conditional probability - outcome based on the previous outcome 
+
+Decision trees - Tree-like model of decisions and their possible consequences
+
+High Entropy - Uniform distribution, less predictable 
+Low entropy - peaks and valleys, more predictable 
+
+Instance-based learning - comparison of new problem instances seen in training 
+
+Sigmoid function - converts real-valued inputs to have values of 0 to 1
+
+
+K-Nearest - Non parametic supervised learning classifier which uses proximity to make classifications or predictions 
+
+Larger k may lead to better performance 
+
+Unsupervised learning - work on their own to discover the inherent structure of data (dont need labels)
+
+Clustering - Grouping of set of similar objects 
+
+Euclidean distance - defines similarity 
+
+K-means clustering - centroid-based clustering, calculates the distance between each data point and a centroid to assign to a cluster 
+
+Hierarchical clustering - analysis that seeks to build a hierarchy of clusters. Does not require a pre-specified choice  of K 
+
+Dimensionality Reduction - high to lower dimensions data set ensuring similar information 
+
+Covariance - measure of the joint variability of two random variables 
+
+vector space - set whose elements often called vectors, Generalize Euclidean vectors that has a magnitude and direction 
+
+subspace - vector space that is a subset of some larger vector space 
+
+Orthonormality - orthonormal vectors are both perpendicular to each other and have a length of 1
+
+Principal component analysis - maps in a high dimension data to a low dimension space. Variance of the data in the lower dimension space should be maximum 
+
+principal components - eigenvecors that are analogous to the principal axes of an ellipse
+
+Neural Networks - mathematical models that use learning algorithms inspired by the brain 
+
+McCullough and Pitts(1944) - arranged to weights but not layers. Results more neuroscience than computer science 
+
+units - artificial neurons
+Neural network with at least one hidden layer is a universal approximator (can represent any function).
+
+Capacity of the network increases with more hidden units and more hidden layers
+
+Backpropagation - efficient method for computing gradient-based optimization of the weights in a multi-layet network 
+
+Error gradient is computable for any continuous activation function
+
+# Formulas
+
+$$Precision  = \frac{\text{True Positives}}{\text{True Positives + False Positive}}$$
+
+$$Accuracy = \frac{\text{True positives + True Negatives}}{\text{True positives + True negatives + False positives + False negatives}}$$
+$$Recall = \frac{\text{True positive}}{\text{True positives + False negatives}}$$
+$$F1 = \frac{2*\text{Precision}*\text{Recall}}{\text{Precision + Recall}}$$
+
+
+## Convolutional Neural Networks 
+
+Perceptron - Most basic part of a neural network inputs with weights sum and go to the activation function 
+Multilayer perceptron - Multiple perceptron
