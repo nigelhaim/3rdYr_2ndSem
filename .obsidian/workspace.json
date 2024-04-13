@@ -4,33 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "eac5f8b5790d15d5",
+        "id": "b29796a91fd174d8",
         "type": "tabs",
+        "dimension": 31.876606683804624,
         "children": [
           {
             "id": "e1c33187a550a79f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Thesis/More-RRL-Araza (1).pdf"
-              }
-            }
-          },
-          {
-            "id": "c3e707be055c1c50",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Panimulang Pagsasalit.md",
+                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
+        ]
+      },
+      {
+        "id": "00d04c2d357d5c2b",
+        "type": "tabs",
+        "dimension": 68.12339331619538,
+        "children": [
+          {
+            "id": "ec8ee7105411aed8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Localized Regions/Deep Learning Approaches for Automatic Localization in Medical Images.pdf"
+              }
+            }
+          },
+          {
+            "id": "15c905146c3fc81b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
+              }
+            }
+          },
+          {
+            "id": "4af4dd8c98d975f7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Localized Regions/Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation.pdf"
+              }
+            }
+          },
+          {
+            "id": "17c5f2dad09444fb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI.pdf"
+              }
+            }
+          }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3ffa4d934e217daa",
@@ -96,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Panimulang Pagsasalit.md",
+                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Panimulang Pagsasalit.md",
+                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Panimulang Pagsasalit.md"
+                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md"
               }
             }
           }
@@ -157,27 +196,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3e707be055c1c50",
+  "active": "e1c33187a550a79f",
   "lastOpenFiles": [
-    "Pasted image 20240324102343.png",
-    "Panimulang Pagsasalit.md",
-    "Untitled.md",
-    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
-    "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
-    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
+    "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI.pdf",
+    "Thesis/Localized Regions/Microbleed detection through localized regions.md",
     "Thesis/Localized Regions/Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation.pdf",
-    "Thesis/Localized Regions/Localized Region Contrast for Enhancing.pdf",
+    "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI.pdf.crdownload",
+    "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI",
+    "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI.crdownload",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
+    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
+    "Thesis/Localized Regions/Deep Learning Approaches for Automatic Localization in Medical Images.pdf",
     "Thesis/Localized Regions/Brain tumor segmentation based on region of interest-aided localization and segmentation U-Net.pdf",
     "Thesis/Localized Regions/Machine-learning method for localization of cerebral white matter hyperintensities in healthy adults based on retinal images.pdf",
-    "Thesis/Localized Regions",
-    "Thesis/Local",
-    "Thesis/New folder",
-    "Thesis/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
-    "Thesis/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf.opdownload",
-    "Machine Learning.md",
+    "Pasted image 20240413132039.png",
+    "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
     "Thesis/2nd Consultation.md",
-    "Thesis/Research Problem.md",
     "Thesis/SOP.md",
+    "Panimulang Pagsasalit.md",
+    "Pasted image 20240324102343.png",
+    "Untitled.md",
+    "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md",
+    "Machine Learning.md",
+    "Thesis/Research Problem.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/Thesis topics.md",
     "Thesis/Notes.md",
