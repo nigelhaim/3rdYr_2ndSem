@@ -68,3 +68,109 @@ Google. (2024, January 18). _Chrome Releases_. Chrome Releases. https://chromere
 - Printers: Higher DPI => Better image
 	- 
 
+
+
+## Proccesses 
+
+OS 
+- Refering to the different requests from the user are the requests installed in our system 
+- When making a request = Automatically creates a process
+- A mouse movement = 10 Processes 
+
+Process 
+- Computers can only process in a sequential fashion (One at a time)
+- Queuing
+	- Falling in line 
+Program counter 
+- From 0 to 12 processes alam ng system yung time of process 
+- Kailangan mag adjust yung time ng queue to recover the process 
+- If you cannot recover all processes will not continue (Hang ng pc)
+Stacks 
+- Provide a memory allocation 
+- For the system to be able to run kailangan ipasok yung data sa memory (registers) then it will move to an another part of the register that creates the physical register 
+Data section 
+- To be exact it is responsible for the data itself 
+Heap
+- Process which is responsible pagdating ng time ng pag process ng os yung request
+- The runtime of the request 
+
+Program == Passive entity 
+
+Process == Active entity
+
+A program becomes process when an executable is loaded into memory 
+- This doesnt mean active si program pag naging process. 
+- Nagiging active lang siya when a process is made 
+- Habang walang request it is considered as "Idle"
+- As long the computer is on there is process but not all programs are active
+
+#### 5 different process states
+**New** 
+- Request -> System call -> Process -> Hardware -> Back to the user 
+**Running**
+- Since there is a request when the program executes there is the running state 
+- Dalawa pwedeng puntahan after the running state 
+- **Ready**
+	- When the previous process running the next process is in queued in the ready state 
+- **Waiting**
+	- The Third and other next process is in the waiting state 
+**Terminated**
+ - The process was able to fully execute based on the count 
+ - Needs to release all resources provided (Physical address)
+
+New -> Ready -> Running -> Terminated
+		Ready <- Waiting
+
+
+### Process Control Blocl (PCB)
+- For each request the system creates a PCB
+- Task control block - Another term 
+- Determine the current state of the process 
+- Process state - Program counter - Time the process to execute 
+- Registers - Data Segments, Code segments 
+- Memory limit - Set depending on the size of the memory 
+- Open files - Files that the system needs to execute 
+- Scheduling information - To be discussed on module 5 
+- Accounting infromation - The running time 
+- IO status information - Interms of queuing the Job queue (Pila ng process based on the arrival P1, P2 , P3) and the device queue (the pila of the input and output device)
+
+### Process scheduling
+- Select the processes of the CPU core 
+- The default or pinaka basic is the first come first serve
+- Based on a particular priority 
+- Priority as a basis kung ano yung ieexecute 
+- Deadline 
+	- Prioritize the fastest arrival time 
+
+
+### Context Switch 
+- Why is it important? 
+	- Ensures that all released resources the process creates backup 
+
+### Multitasking in Mobile system 
+- In the earlier years both IOS and Android it is the usual process in the devices 
+
+### Operations and processes
+- Process creation 
+	- Forms of tree of processes
+	- Browsers (Parent) -> Tabs (children)
+	- The parent and the child can share resources or not 
+- Address Space 
+	- Mirrors he parent to have the same memory address 
+
+### Process termination 
+- Unacceptable ang infinite looop 
+- Tangina gutom na ako 
+- The main reason why different proceses to enter the terminate is because of the exit function that is executed by the system call 
+- Process resources are executed from the execution is because for the process to release all resources 
+
+#### Instances that the child is not allowed to exists 
+- Cascading termination - All generations of children are terminated
+- Wait function - The call returns status information 
+
+### Android process Importance Heirarchy 
+- In relation to android 
+	- Sequence of heirarchy in termination 
+	-
+**Module 5** - Computations pag mali na ang GAN chart mali na lahat 
+

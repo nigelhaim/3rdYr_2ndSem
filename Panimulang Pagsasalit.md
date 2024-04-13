@@ -1,4 +1,4 @@
-# Panimulang Pagsasalit
+q# Panimulang Pagsasalit
 
 ## Kahulugan, layunin at Kaligairang Pangkasaysayan ng Pagsasalin 
 
