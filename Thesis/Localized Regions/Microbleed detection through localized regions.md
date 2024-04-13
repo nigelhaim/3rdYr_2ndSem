@@ -1,4 +1,4 @@
-
+	
 Deep Neural Network Object localization has gained success in different researches. It has considered as a requirement before other methods used for medical image analysis. The objective of localization is focused on detecting specific region of interest (ROI) in medical images(Alaskar et al., 2022). The ROI strategy is to exclude the effects of unnecessary tissues in the MRI to enhance segmentation accuracy (Li et al., 2022). The main difference between local and global components is that global information contains the global shape and structure of the image, local information contains the texture change of the image (Jin et al., 2023).
 
 **Localized Region Contrast**
