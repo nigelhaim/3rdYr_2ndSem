@@ -1,4 +1,4 @@
-# Machine Learning
+.# Machine Learning
 
 # $Y = f(x)$
 ## Relevance of AI 
@@ -346,3 +346,9 @@ $$Precision  = \frac{\text{True Positives}}{\text{True Positives + False Positiv
 $$Accuracy = \frac{\text{True positives + True Negatives}}{\text{True positives + True negatives + False positives + False negatives}}$$
 $$Recall = \frac{\text{True positive}}{\text{True positives + False negatives}}$$
 $$F1 = \frac{2*\text{Precision}*\text{Recall}}{\text{Precision + Recall}}$$
+
+
+## Convolutional Neural Networks 
+
+Perceptron - Most basic part of a neural network inputs with weights sum and go to the activation function 
+Multilayer perceptron - Multiple perceptron
