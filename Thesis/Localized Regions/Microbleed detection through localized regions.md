@@ -1,5 +1,5 @@
 
-Deep Neural Network Object localization has gained success in different researches. It has considered as a requirement before other methods used for medical image analysis. The objective of localization is focused on detecting specific region of interest (ROI) in medical images(Alaskar et al., 2022). The ROI strategy is to exclude the effects of unnecessary tissues in the MRI to enhance segmentation accuracy (Li et al., 2022)
+Deep Neural Network Object localization has gained success in different researches. It has considered as a requirement before other methods used for medical image analysis. The objective of localization is focused on detecting specific region of interest (ROI) in medical images(Alaskar et al., 2022). The ROI strategy is to exclude the effects of unnecessary tissues in the MRI to enhance segmentation accuracy (Li et al., 2022). The main difference between local and global components is that global information contains the global shape and structure of the image, local information contains the texture change of the image (Jin et al., 2023).
 
 **Localized Region Contrast**
 
@@ -12,7 +12,7 @@ The results shows significant improvement, on different datasets. The experiment
 
 **T2*-weighted MRI Microbleed detection***
 
-A study conducted by Anthony et al. (2021) on applying localization that automatically detects microbleeds in T2*-weighted MRI data. They demonstrated the detection of CMB over cross-sectional and longitudinal scans ideally for large-scale studies. The algorithm identifies CMB through the anatomical localization on brain atlases. 
+A study conducted by Anthony et al. (2021) on applying localization that automatically detects microbleeds in T2*-weighted MRI data. They demonstrated the detection of CMB over cross-sectional and longitudinal scans ideally for large-scale studies. The algorithm known as MAGIC, identifies CMB through the anatomical localization on brain atlases. 
 
 Their data consists of T1-weighted images, T2*-weighted  SWI, and T2*-weighted GRE Magnetic resonance images with T1-wighted and T2*-weighted images uses the same parameters. The data was visually inspected and determined the microbleeds and its location by three raters (IBM with over eight years of experience, EA and AGC with two years of experience). Fleiss' kappa was used for interrater and intra-rater for the assessment of microbleeds (Anthony et al., 2021). 
 
@@ -22,12 +22,57 @@ The identification of circular regions of interests of potential microbleeds was
 
 The preprocessing methods significantly reduced the potential locations of Microbleed. The remaining overlapping regions of interests were merged together are to large to be true microbleeds. These potential microbleeds are excluded and considered as vessels since the lenient cutoff distance between centers greater than eight pixels (1.15 mm). This method is similar to the visual rating criteria. Finally the region that represents the microbleed candidate was defined as the 3D center and a surrounding neighborhood of a standardized size of 51 x 51 x 25 voxels (two times the maximum expected size of a microbleed). It was used since the neighborhood of this size ensures the candidate is passed for analysis. 
 
-Furthermore to remove false positive locations Anthony et al. (2021) used geometric information contained in the Regions of interest. The 3D image entropy, the 2D image entropy of the maximum intensity projection of the ROI and the volume and compactness of the central blob in each ROI as identified through the Frangi filtering.  
+Furthermore to remove false positive locations Anthony et al. (2021) used geometric information contained in the Regions of interest. The 3D image entropy, the 2D image entropy of the maximum intensity projection of the ROI and the volume and compactness of the central blob in each ROI as identified through the Frangi filtering. It utilizes the second order derivatives of an image to exact spatial information of the Region's geometry (Anthony et al., 2021). They also stated that, entropy lies on the range from zero to eight in a 8-bit greyscale image. They expected a moderate amount of entropy on 3D images with a large signal void in the center to determine that the ROI is a true microbleed. Higher amount of entorpy indicates a noisy false positive region. They also did not expect that 2D entropy data is sharply distinctive as the entropy of 3D data. 
 
+The data was again evaluated and corrected by a trained rater after determining the regions of interest. The three raters confirmed that there are proposed region was a microbleed. It was identified that 44 microbleed positive participants using SWI scans have 54 locations. 61 locations on the same 44 participants on GRE. MAGIC accurately detected 92% of microbleeds and a reasonable precision seen in Table 1.
+
+![[Pasted image 20240413212319.png]]
+**Table 3.** The precision results of the algorithm. False positives are presented in the final column averged over the number of images (Anthony et al., 2021).
+
+
+**Local and Global Information synchronous learning**
+
+Inspired from the concept of U-Shape models, Multi-branch learning, and Attention mechanism, Jin et al. (2023) proposed a multi-branch segmentation network that focuses on utilizing local and global information named MBSNet seen in Figure 1. It can be derived from the high-frequency and low-frequency features in images. They also focused on a depth-aware global and local information network. A different approach compared to pixel-level prediction tasks. To obtain global features the image is processed through a dilated convolution and average pooling operation. The global features acts as a supplementary information, however it does not combine with local information. The model consists of three stages: local feature extraction branch (Branch L), global feature extraction branch (Branch G), and multi-scale feature fusion branch (Branch F). Taking inspiration from the Inception Mixer, low-level features are used to supplement local information. 
+
+![[Pasted image 20240413235847.png]]
+
+**Figure 1.** The Overview of MBSNet architecture. Branch G is the upper part and Branch L is the lower part. Branch F is the Decoder phase. It is also posted on the lower right about the structural details of the FCFB. 
+
+The local feature extraction branch is a five-layer convolutional block. The branch L focuses on capturing the local information of the input image. Unlike UNet the block of branch L is reduced to 1 convolution, and the channels is reduced by 1/4, respectively 16, 32, 64, 128, 256 (Jin et al., 2023). It retains effective semantic information while saving computing resources and time  by reducing the number of parameters. The branch was further enhanced by Parallel residual mixer which consists of two parts maximum pooling and depth-wise convolutional layer (DWConv) to extract more local information and reduce the feature dimension. Using SE-Block to weigh each channel and guides the learning performance of the model, Branch L can mine different channel characteristics. Further discussing PRM seen in Figure 2, DWConv perceives semantic information details. It is also has fewer convolution operation parameters. Normalizing the layer channel through layer normalization and used in recently studied networks the used Gaussian error linear unit activation function (GELU) as their activation layer. PRM is denoted as: 
+
+![[Pasted image 20240413234017.png]]
+
+Following batch normalization and ReLU activation $f_{1X1}$ and $f_{3X3}$ are standard convolution layers. $F_{mp}(X)$ is denoted as a max pooling operator $F_{dc}(X)$ is the depth-wise convolution and $\oplus$ indicating the concatenation. 
+
+![[Pasted image 20240413235631.png]]
+**Figure 2**. The structure of PRM along with the max pooling operation and depth wise convolutional layer. 
+
+The structure of dilated convolution block as seen in Figure 3. Global feature extraction branch consists of multiple dilated convolution blocks. Each block has two standard standard convolution layers and a dilated convolution layer two convolution layers. With three convolution blocks for fine grained pixel-level segmentation tasks, the size of connecting the encoder and the decoder is usually small. This causes information loss which resulted to down sampling twice. The pooling operation between each convolution block uses average-poling since it retains more complete data. The information is also fused in the down sampling processes. In the formula of $Y$ input feature $X$ in  a 1 x 1 convolutional layer $f(X)$ is an inflated convolution that contains BN and ReLU. 
+
+![[Pasted image 20240414005810.png]]
+
+To enhance the spatial information of the output Jin et al. (2023) also proposed the spatial attention module (SAM) to branch G integrating the global contextual information. SAM converts the input features into Q, V, K features. The module performs Matrix multiplication to the variables and added after reshaping. $F_{gl}(X)$ is an adaptive average pooling operator, $F_{sm}(X)$ symbolizes the softmax operator, and $F_{ge}(X)$ is the GELU operator, and $\otimes$ is the multiplication of the matrices. 
+
+![[Pasted image 20240414010333.png]]
+
+![[Pasted image 20240414001716.png]]
+**Figure 3.** The Structure of dilated convolution block. Extends the field of view through dilated convolutions that perceives global information
+
+Multi-scale feature fusion branch fuses the global and local information output by the branches L and G. Through bilinear interpolation with skip connections the 4th and 5th layers of L are sampled first. This is enhanced by Feature Cross Fusion Block (FCFB) seen in Figure 1. It's advantages is it can complement features with little calculation. The features are then mapped through an upsampled convolution block containing a standard convolution layer and a bilinear interpolation upsampled layer, respectively. 
+
+Through Adam as the optimized for the network the expermientation stage was set the initial learning rate to 0.001. Cosine annealing learning rate scheduler with 0.00001 was also applied. The data was augmented through horizontal and vertical flipping, and random cropping. To retain best-performance, Jin et al. (2023) used Joint loss function of cross entropy and dice loss for training. The segmentation model was used on multiple datasets. 
+
+MBSNet acheived good results in multiple datasets. It has good results in dermoscopy, gastroscopy, colonoscopy, ultrasound (US), computed tomography (CT), and nuclear magnetic resonance (MRI). It was was tested on five datasets ISIC2018, Kvasir, BUSI, COVID‑19, and LGG. On the Kvasir test dataset, it acheieced an F1-Score of 85.29%, well above 78.73% for UNet++ wil FLOPs.The proposed MBSNet model performs better than other competitive methods (Jin et al., 2023).
 
 Alaskar, H., Hussain, A., Almaslukh, B., Vaiyapuri, T., Sbai, Z., & Dubey, A. K. (2022). Deep learning approaches for automatic localization in medical images. _Computational Intelligence and Neuroscience_, _2022_, 6347307. https://doi.org/10.1155/2022/6347307
 
 Li, S., Liu, J., & Song, Z. (2022). Brain tumor segmentation based on region of interest-aided localization and segmentation U-Net. _International Journal of Machine Learning and Cybernetics_, _13_(9), 2435–2445. https://doi.org/10.1007/s13042-022-01536-4
+
+Yan, X., Naushad, J., You, C., Tang, H., Sun, S., Han, K., Ma, H., Duncan, J., & Xie, X. (2023). _Localized region contrast for enhancing self-supervised learning in medical image segmentation_ (arXiv:2304.03406). arXiv. https://doi.org/10.48550/arXiv.2304.03406
+
+Chesebro, A. G., Amarante, E., Lao, P. J., Meier, I. B., Mayeux, R., & Brickman, A. M. (2021). Automated detection of cerebral microbleeds on T2*-weighted MRI. _Scientific Reports_, _11_(1), 4004. https://doi.org/10.1038/s41598-021-83607-0
+
+Jin, S., Yu, S., Peng, J., Wang, H., & Zhao, Y. (2023). A novel medical image segmentation approach by using multi-branch segmentation network based on local and global information synchronous learning. _Scientific Reports_, _13_(1), 6762. https://doi.org/10.1038/s41598-023-33357-y
 
 
 >[!Note]- Definition of Terms
@@ -44,6 +89,7 @@ Li, S., Liu, J., & Song, Z. (2022). Brain tumor segmentation based on region of 
 > Brain Atlas
 > Hough transform
 > Frangi filtering
+> ReLU
 
 >[!Note]- Dumps 
 >Through the input image $x_q$ and its transform $x_p$ the positive and negative pairs for local contrast are generated. For every input image $x$ the algorithm provides $K$ local regions $R$ = {$r^1, r^2,...,r^K$} where $r^k$ where $k$ is the local region cluster for the image. They performed elastic transform to generate an augmented image $x_p = T_e(x_q)$ based from the query image $x_q$ and its local regions $R_q$. They then used U-Net 
