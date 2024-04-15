@@ -4,26 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "c113ec8e44995f9a",
-        "type": "tabs",
-        "dimension": 13.774104683195592,
-        "children": [
-          {
-            "id": "ed7b2e89ea12def6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "50f681be776b01c5",
         "type": "tabs",
-        "dimension": 86.22589531680441,
         "children": [
           {
             "id": "6727340a7199cf28",
@@ -167,6 +149,7 @@
   },
   "active": "6727340a7199cf28",
   "lastOpenFiles": [
+    "Pasted image 20240415225654.png",
     "Thesis/Research Problem.md",
     "Thesis/April 15, 2024 meeting.md",
     "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
