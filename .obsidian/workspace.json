@@ -6,6 +6,7 @@
       {
         "id": "c113ec8e44995f9a",
         "type": "tabs",
+        "dimension": 43.52617079889807,
         "children": [
           {
             "id": "37ea2a20fa110784",
@@ -18,8 +19,51 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4e4166155fa4bc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "50f681be776b01c5",
+        "type": "tabs",
+        "dimension": 56.473829201101935,
+        "children": [
+          {
+            "id": "527bc5b7030aedc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f47f6c92ac1dc5b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "01cd733576710bef",
@@ -85,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md",
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/Localized Regions/Microbleed detection through localized regions.md"
+                "file": "Thesis/False Positive Reduction/False positive reduction.md"
               }
             }
           }
@@ -146,8 +191,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37ea2a20fa110784",
+  "active": "e4e4166155fa4bc8",
   "lastOpenFiles": [
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
+    "Thesis/False Positive Reduction/False positive reduction.md",
+    "Thesis/Localized Regions/Microbleed detection through localized regions.md",
+    "Thesis/False Positive Reduction",
     "Thesis/Localized Regions/Machine-learning method for localization of cerebral white matter hyperintensities in healthy adults based on retinal images.pdf",
     "Thesis/Localized Regions/Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation.pdf",
     "Thesis/Localized Regions/Deep Learning Approaches for Automatic Localization in Medical Images.pdf",
@@ -164,9 +213,6 @@
     "Thesis/Notes.md",
     "Thesis/More-RRL-Araza (1).pdf",
     "Thesis/March 22 Meeting.md",
-    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
-    "Thesis/Localized Regions/Microbleed detection through localized regions.md",
-    "Thesis/Localized Regions/Brain tumor segmentation based on region of interest-aided localization and segmentation U-Net.pdf",
     "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
     "Thesis/2nd Consultation.md",
     "St. Thomas Aquinas Jubilee Retreat.md",
