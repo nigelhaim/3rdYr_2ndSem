@@ -6,6 +6,7 @@
       {
         "id": "50f681be776b01c5",
         "type": "tabs",
+        "dimension": 29.97658079625293,
         "children": [
           {
             "id": "6727340a7199cf28",
@@ -13,13 +14,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "d634e1823124aac0",
+        "type": "tabs",
+        "dimension": 70.02341920374707,
+        "children": [
+          {
+            "id": "93e535dc8b13223a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
+              }
+            }
+          },
+          {
+            "id": "06a3781999f9cfa0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Thesis/False Positive Reduction/BTH2012Babak.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md"
+                "file": "Thesis/False Positive Reduction/False positive reduction.md"
               }
             }
           }
@@ -149,43 +178,42 @@
   },
   "active": "6727340a7199cf28",
   "lastOpenFiles": [
+    "Thesis/False Positive Reduction/BTH2012Babak.pdf",
+    "Thesis/False Positive Reduction/False positive reduction.md",
+    "Pasted image 20240416133443.png",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
+    "Thesis/False Positive Reduction/BTH2012Babak.pdf.crdownload",
+    "Thesis/March 22 Meeting.md",
+    "Thesis/False Positive Reduction/A Transfer Learning-Based Approach to Detect Cerebral Microbleeds.pdf",
+    "Thesis/False Positive Reduction/TSP_CMC_13966.pdf",
+    "Thesis/False Positive Reduction/TSP_CMC_13966.pdf.crdownload",
+    "Thesis/False Positive Reduction/A Transfer Learning-Based Approach to Detect Cerebral Microbleeds.pdf.crdownload",
+    "Pasted image 20240416093223.png",
+    "Thesis/Localized Regions/Microbleed detection through localized regions.md",
+    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
+    "Thesis/Localized Regions/RRL on Localized regions.md",
+    "Thesis/April 15, 2024 meeting.md",
     "Pasted image 20240415225654.png",
     "Thesis/Research Problem.md",
-    "Thesis/April 15, 2024 meeting.md",
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
     "Thesis/Notes.md",
     "Thesis/More-RRL-Araza (1).pdf",
     "Thesis/electronics-10-02208 (1).pdf",
     "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
     "Thesis/2nd Consultation.md",
-    "Thesis/Localized Regions/Microbleed detection through localized regions.md",
-    "Thesis/Localized Regions/RRL on Localized regions.md",
-    "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
-    "Thesis/Localized Regions/Machine-learning method for localization of cerebral white matter hyperintensities in healthy adults based on retinal images.pdf",
-    "Thesis/March 22 Meeting.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/SOP.md",
-    "Thesis/Localized Regions/Brain tumor segmentation based on region of interest-aided localization and segmentation U-Net.pdf",
-    "Thesis/False Positive Reduction/False positive reduction.md",
     "Media/Pasted image 20240414010333.png",
     "Media/Pasted image 20240414005810.png",
     "Media/Pasted image 20240414001716.png",
     "Media/Pasted image 20240413234017.png",
     "Media/Pasted image 20240115215735.png",
     "Media/Pasted image 20240413132039.png",
-    "Thesis/False Positive Reduction",
-    "Thesis/Localized Regions/Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation.pdf",
-    "Thesis/Localized Regions/Deep Learning Approaches for Automatic Localization in Medical Images.pdf",
-    "Thesis/Localized Regions/Automated detection of cerebral microbleeds on T2weighted MRI.pdf",
     "Untitled.md",
     "Thesis/Thesis topics.md",
     "St. Thomas Aquinas Jubilee Retreat.md",
     "Proposed New Thesis Topic.md",
     "Media/Pasted image 20240413235847.png",
-    "Media/Pasted image 20240413235631.png",
-    "Media/Pasted image 20240413212319.png",
     "Microbleed segmentation.md",
-    "Media/Pasted image 20240319145916.png",
     "March 1&8 Activity.md",
     "ANG PAGSUSULIT AY ISANG URI NG AGHAM.md"
   ]
