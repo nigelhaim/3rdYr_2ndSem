@@ -43,9 +43,11 @@ Partial Least Square Mapping is also applied as a feature extraction. The linear
 
 After extracting the features different classification methods were used to classify the mimics and CMBs. Support vector classifiers that involves optimizing the convex function. The hypothesis dependency on the data through the support vectors makes the model more understandable for the observer. Linear Discriminant Classifier models each class of data by a Gaussian model, Quadratic Discriminant Classifier which the classes has their, and Parzen that uses a kernel as a weighting function for estimating the class conditional densities. 
 
-To analyze the results Ghafaryasl et al. (2012) used Free reciever Operating Characterstic (FROC). A graph that is used as the criterion for selecting the best performing feature selection method and cassifier. 
+To analyze the results Ghafaryasl et al. (2012) used Free receiver Operating Characteristic (FROC). A graph that is used as the criterion for selecting the best performing feature selection method and classifier. 
 
 Their study concluded that despite the proposed model contains some False positives, it helps the radiologist to facilitate manual segmentation. It can be used to examine and distinguish CMBs from false positives.  The sensitivity for CMB detection was 90% with, on average, 4 false-positives per subject. 
+
+
 
 Ferlin, Maria, et al. “Exploring the Landscape of Automatic Cerebral Microbleed Detection: A Comprehensive Review of Algorithms, Current Trends, and Future Challenges.” _Expert Systems with Applications_, vol. 232, Dec. 2023, p. 120655. _ScienceDirect_, https://doi.org/10.1016/j.eswa.2023.120655.
 
@@ -57,3 +59,11 @@ Qi Dou, null, Hao Chen, null, Lequan Yu, null, Lin Shi, null, Defeng Wang, null,
 Ghafaryasl, B., van der Lijn, F., Poels, M., Vrooman, H., Ikram, M. A., Niessen, W. J., van der Lugt, A., Vernooij, M., & de Bruijne, M. (2012). A computer aided detection system for cerebral microbleeds in brain MRI. _2012 9th IEEE International Symposium on Biomedical Imaging (ISBI)_, 138–141. https://doi.org/10.1109/ISBI.2012.6235503
 
 Afzal, S., Khan, I., & Lee, J. (2021). A transfer learning-based approach to detect cerebral microbleeds. _Computers, Materials & Continua_, _71_(1), 1903–1923. https://doi.org/10.32604/cmc.2022.021930
+
+
+
+
+| Title                                                                                                                                           | Author/s                                                                         | Abstract                                                                                                                                                                                                                                                                                         | Conclusion                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Automatic cerebral microbleeds detection from MR images via Independent Subspace Analysis based hierarchical features                           | Dou, Q. Chen, H., Yu, L., Shi, L., Wang, D., Mok, V., Heng, P. (2015)            | Their approach detects Cerebral Microbleeds in three stages. The first stage is where the candidates are screened, then 3D hierarchal features are extracted through convolutional Independent Subspace Analysis and the false positive candidates are removed through a Support Vector Machine, | 89.44% of sensitivity was achieved on 19 subjects with 161 CMBs, 7.7 average and 0.9 false positive per subject and per CMB. |
+| Exploring the landscape of automatic cerebral microbleed detection: A comprehensive review of algorithms, current trends, and future challenges | Ferlin, M., Klawikowska, Z., Grochowski, M., Grzywińka, M., Szurowska, E. (2023) | Provided a review to all published studies available up until December 2023 that focused on Automated Cerebral Microbleed Detection                                                                                                                                                              | Their findings would serve as a                                                                                              |
