@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "01cd733576710bef",
@@ -95,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Thesis/False Positive Reduction/False positive reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Thesis/False Positive Reduction/False positive reduction.md"
+              }
             }
           }
         ]
@@ -152,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4104d1095f637e4b",
+  "active": "6727340a7199cf28",
   "lastOpenFiles": [
+    "Pasted image 20240416093223.png",
     "Thesis/False Positive Reduction/False positive reduction.md",
     "Thesis/Localized Regions/Microbleed detection through localized regions.md",
     "Thesis/False Positive Reduction/TSP_CMC_13966.pdf",
@@ -166,7 +169,6 @@
     "Thesis/March 22 Meeting.md",
     "Thesis/False Positive Reduction/TSP_CMC_13966.pdf.crdownload",
     "Thesis/False Positive Reduction/A Transfer Learning-Based Approach to Detect Cerebral Microbleeds.pdf.crdownload",
-    "Pasted image 20240416093223.png",
     "Thesis/Localized Regions/Toward Automated Detection of Microbleeds with Anatomical Scale.pdf",
     "Thesis/Localized Regions/RRL on Localized regions.md",
     "Thesis/April 15, 2024 meeting.md",
