@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c113ec8e44995f9a",
-        "type": "tabs",
-        "dimension": 13.774104683195592,
-        "children": [
-          {
-            "id": "ed7b2e89ea12def6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "50f681be776b01c5",
         "type": "tabs",
-        "dimension": 86.22589531680441,
         "children": [
           {
-            "id": "6727340a7199cf28",
+            "id": "e661df9279c13a5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "LabExer3.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "01cd733576710bef",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "LabExer3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md",
+                "file": "LabExer3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thesis/April 15, 2024 meeting.md"
+                "file": "LabExer3.md"
               }
             }
           }
@@ -165,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6727340a7199cf28",
+  "active": "e661df9279c13a5f",
   "lastOpenFiles": [
-    "Thesis/Research Problem.md",
-    "Thesis/April 15, 2024 meeting.md",
+    "LabExer3.pdf",
     "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
+    "LabExer3.md",
+    "Thesis/April 15, 2024 meeting.md",
+    "Thesis/Research Problem.md",
     "Thesis/Notes.md",
     "Thesis/More-RRL-Araza (1).pdf",
     "Thesis/electronics-10-02208 (1).pdf",
