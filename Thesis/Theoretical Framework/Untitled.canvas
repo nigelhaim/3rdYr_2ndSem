@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "019d9e1207b1a50c",
+      "type": "text",
+      "text": "**Automated Microbleed Detection**",
+      "x": -160,
+      "y": -30,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "a78bd18538a4d224",
+      "type": "text",
+      "text": "Localization",
+      "x": -85,
+      "y": -200,
+      "width": 150,
+      "height": 50
+    }
+  ],
+  "edges": [
+    {
+      "id": "647bfa0ea0822a83",
+      "fromNode": "019d9e1207b1a50c",
+      "fromSide": "top",
+      "toNode": "a78bd18538a4d224",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {}
+}
