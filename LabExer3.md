@@ -34,4 +34,7 @@ For each hair_type in the directory 'hair_types':
 
 ### Running the model for the first time.
 
-From the file Demo we initially have a Sequential model with three convolutional 2D layers each layer will have a stride of one and a padding of valid each layers have a filter of 
+From the file Demo we initially have a Sequential model with three convolution 2D layers each layer will have a stride of one and a padding of valid each layers have a filter of 4, 8, 16 respectively. Every layer contains the kernel size of 20, 8, and 4. The optimizer used for the first time is the Adam Optimizer. The number of Epochs is 50. 
+
+### PreProcessing 
+

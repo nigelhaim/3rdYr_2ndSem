@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LabExer3.md",
+                "file": "Thesis/Theoretical Framework/Theoretical Framework 2nd Version.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LabExer3.md",
+                "file": "Thesis/Theoretical Framework/Theoretical Framework 2nd Version.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LabExer3.md",
+                "file": "Thesis/Theoretical Framework/Theoretical Framework 2nd Version.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LabExer3.md"
+                "file": "Thesis/Theoretical Framework/Theoretical Framework 2nd Version.md"
               }
             }
           }
@@ -148,33 +148,34 @@
   },
   "active": "e661df9279c13a5f",
   "lastOpenFiles": [
+    "LabExer3.md",
+    "Thesis/Theoretical Framework/Theoretical Framework 2nd Version.md",
+    "Thesis/TheUseofSpatialRelationshipsandObjectIdentificationinImageUnderstanding.pdf",
+    "Thesis/TheUseofSpatialRelationshipsandObjectIdentificationinImageUnderstanding.pdf.crdownload",
+    "Thesis/Further notes.md",
+    "Thesis/electronics-10-02208 (1).pdf",
+    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
+    "Thesis/March 22 Meeting.md",
+    "Thesis/More-RRL-Araza (1).pdf",
+    "Thesis/Notes.md",
+    "Thesis/Theoretical Framework/Theoretical Framework.md",
     "Untitled 1.md",
     "Thesis/Theoretical Framework/Untitled.canvas",
-    "Thesis/Theoretical Framework/Theoretical Framework.md",
     "Thesis/Theoretical Framework",
     "Thesis/THESIS Manuscript Template.pdf",
-    "Thesis/Further notes.md",
     "Thesis/False Positive Reduction/electronics-10-02208.pdf",
     "Thesis/False Positive Reduction/TSP_CMC_13966.pdf",
     "Thesis/False Positive Reduction/BTH2012Babak.pdf",
-    "Thesis/False Positive Reduction/A Transfer Learning-Based Approach to Detect Cerebral Microbleeds.pdf",
     "Pasted image 20240416162330.png",
     "Pasted image 20240416133443.png",
     "Pasted image 20240416093223.png",
     "Pasted image 20240415225654.png",
-    "LabExer3.pdf",
-    "Thesis/Exploring the landscape of automatic cerebral microbleed detection A comprehensive review of algorithms, current trends, and future challenge.pdf",
-    "LabExer3.md",
     "Thesis/April 15, 2024 meeting.md",
     "Thesis/Research Problem.md",
-    "Thesis/Notes.md",
-    "Thesis/More-RRL-Araza (1).pdf",
-    "Thesis/electronics-10-02208 (1).pdf",
     "Thesis/A Comprehensive Analysis of Deep Neural-Based Cerebral Microbleeds Detection System.md",
     "Thesis/2nd Consultation.md",
     "Thesis/Localized Regions/Microbleed detection through localized regions.md",
     "Thesis/Localized Regions/RRL on Localized regions.md",
-    "Thesis/March 22 Meeting.md",
     "Thesis/Thesis Orientation.md",
     "Thesis/SOP.md",
     "Thesis/False Positive Reduction/False positive reduction.md",
