@@ -1,0 +1,4 @@
+
+Diagnosing various conditions from medical images through machine learning are showing tremendous growth. The significance of helping medical practitioners and Radiologist can be observed from previous years. Machine learning learns to detect diseases at their initial stage through various modalities to decrease morality rate (Rana & Bhushan, 2022). Overviewing the concepts of Localized regions, Multiplanar Approach, False positive Reduction techniques and the Models that will be used for the study. 
+
+Rana, M., & Bhushan, M. (2022). Machine learning and deep learning approach for medical image analysis: Diagnosis to detection. _Multimedia Tools and Applications_, 1–39. https://doi.org/10.1007/s11042-022-14305-w

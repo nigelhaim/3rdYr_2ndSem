@@ -104,26 +104,3 @@ After understanding the concept of how filters work. It is then decided to explo
 ### Image sharpening 
 
 Image sharpening enhances the definition of edges of an image. It is done through the comparison of adjacent pixels in an image and enhancing the brightness to emphasize edges of the image. Applying this preprocessing increases all metrics by 0.0100. Theoretically the performance improved also because Max Pooling extracts edges and points which is highlighted by the preprocessing method. 
-
-**Bicubic interpolation**
-
-To further enhance the images. Bicubic interpolation is also included in the preprocessing the dataset from the directory both in train_ds and val_ds. It slightly improves the model based on the evaluation metrics and the manual predictions of all classes. However on the line graphs the model significantly fluctuates on the first 10 epochs. However with regularization methods, the model tends to have a better performance. 
-## Regularization
-
-### Early stopping 
-
-The application of early stopping reduces the model from 45 epochs to 15 epochs. The method also decreases the performance based on the metrics and significantly increases the incorrect classification on one class. This is because the concept of early stopping is to stop the model's training when it starts to overfit. Since the number of epochs is a parameter, applying early stopping helps the model finds an optimum value through tuning this hyperparameter. However the model is slightly slower than running without any regularization. Furthermore the researchers also observed how the patience parameter affects on how regularization is strict in stopping the model. Despite of the slight improvement in regularization of overfitting the researchers did not include early stopping since it significantly reduces the performance of the model by suddenly decreases the number of passes resulting the lack of training of the model.
-
-### Dropout
-
-The application of dropout improves the accuracy of the model. However it also introduces some fluctuations as shown in the graph. The researchers also considered using Early stopping along with the dropout regularization. However it did not improved the model. This is because on every step, a neuron has a dropout rate. If too much dropout rate could result the neurons could be inactive. However too little could just let overfitting happen. 
-
-![[Pasted image 20240428101646.png]]
-### L1 and L2
-
-L1 and L2 regularization is sone of the common practices in image classification. The researchers learned the basics of L1 norm/Lasso regression and L2 norm/Ridge regression to further understand the technique. In theory through the sum of the absolute values of the weights to the loss that encourages the weights to be 0.0 for a more sparse network of the L1, as well the summation of the squared values of the weights to the loss that penalizes larger weights that balances the model to be less sparse weights of L2. However the model slightly underfits at the same time it increases fluctuations. It reduces performance, however the researchers set the value of L1 as $1e-4$ and L2 of $1e-5$ the model gained more accuracy with less fluctuations. 
-
-
-
-
-https://www.youtube.com/watch?v=rQVODj9YDp0
