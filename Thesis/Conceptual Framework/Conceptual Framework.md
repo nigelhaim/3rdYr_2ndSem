@@ -1,0 +1,24 @@
+![[438158983_1153582962622313_2939091649093205453_n.png]]
+**Figure 1.** The conceptual framework of Detection of Microbleeds through Global Contextual attention while Eliminating False positive Candidates
+
+The VALDO dataset (Sudre et al., 2024) will be utilized as the input for the study. All samples will pass through four preprocessing operations before modeling. Each sample will be preprocessed through skull stripping, where the skull, background, and other non-brain tissues will be removed (Ferlin et al., 2023). This operation is done through the proposed method of Shattuk et al. (2001) through anisotropic diffusion filtering, edge detection and mathematical morphology combination. Each local estimate is computed through a partial volume tissue measurement model where it uses the mean intensity value of the tissue and noise variance values that are computed from the global image and multiplicative bias parameter. The resulting voxels are classified into six types of tissues through a maximum posteriori classifier that consist of the brain’s spatial properties that is modeled out by a Gibbs and partial volume tissue measurement model.  The method ensures the focus on the brain tissues for easier detection of the candidates. Each pixel for all samples in the dataset will be normalized through one of the common normalization approaches that is refined normalization of Udupa (1999) by Shah et al. (2011) where the first stage is creating a template histogram with region of interest by averaging histograms ina a reference population. Then Each subject are mapped in a piecewise linear transformation to the template that is defined through quantiles as knots. It will be followed by an interpolation process to ensure all samples have the same resolution. Samples also have varying amounts of slices. Another feature will be used to indicate the number of slices per sample to compensate for the varying number of slices.
+
+After preprocessing each slice will be input to the Region Proposal Network (RPN). RPN predicts the region through learning on each slice and extract a feature map on the base network. On each iteration the slice along with the previous outputs of the RPN will be analyzed until the network interpolates the positional embeddings and produce the extracted four parameterized coordinates of the bounding box region from all slices (Ren, 2016). 
+
+The Vision Transformer (ViT) focuses on classifying the proposed region of all the slices. Each slice will be analyzed through splitting the image into a fixed-size of patches, linearly embed, and add position embeddings. To classify the proposed region, the approach of ViT adds an extra learnable "classification token" to the sequence. If the proposed region is classified as a true CMB, the model outputs a segmented mask of the candidate. 
+
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., Uszkoreit, J., & Houlsby, N. (2021). _An image is worth 16x16 words: Transformers for image recognition at scale_ (arXiv:2010.11929; Version 2). arXiv. https://doi.org/10.48550/arXiv.2010.11929
+
+Ren, S., He, K., Girshick, R., & Sun, J. (2016). _Faster r-cnn: Towards real-time object detection with region proposal networks_ (arXiv:1506.01497; Version 3). arXiv. https://doi.org/10.48550/arXiv.1506.01497
+
+Shattuck, D. W., Sandor-Leahy, S. R., Schaper, K. A., Rottenberg, D. A., & Leahy, R. M. (2001). Magnetic resonance image tissue classification using a partial volume model. _NeuroImage_, _13_(5), 856–876. https://doi.org/10.1006/nimg.2000.0730
+
+Ferlin, M., Klawikowska, Z., Grochowski, M., Grzywińska, M., & Szurowska, E. (2023). Exploring the landscape of automatic cerebral microbleed detection: A comprehensive review of algorithms, current trends, and future challenges. _Expert Systems with Applications_, _232_, 120655. https://doi.org/10.1016/j.eswa.2023.120655
+
+Sudre, Carole H., et al. “Where Is VALDO? VAscular Lesions Detection and segmentatiOn Challenge at MICCAI 2021.” Medical Image Analysis, vol. 91, Jan. 2024, p. 103029. DOI.org (Crossref), https://doi.org/10.1016/j.media.2023.103029](https://doi.org/10.1016/j.media.2023.103029.
+
+Nyúl, L. G., & Udupa, J. K. (1999). On standardizing the MR image intensity scale. _Magnetic Resonance in Medicine_, _42_(6), 1072–1081. https://doi.org/10.1002/(sici)1522-2594(199912)42:6<1072::aid-mrm11>3.0.co;2-m
+
+Shah, M., Xiao, Y., Subbanna, N., Francis, S., Arnold, D. L., Collins, D. L., & Arbel, T. (2011). Evaluating intensity normalization on MRIs of human brain with multiple sclerosis. _Medical Image Analysis_, _15_(2), 267–282. https://doi.org/10.1016/j.media.2010.12.003
+
+Wu, Z., Wei, J., Yuan, W., Wang, J., & Tasdizen, T. (2020). _Inter-slice image augmentation based on frame interpolation for boosting medical image segmentation accuracy_. https://doi.org/10.3233/FAIA200314
